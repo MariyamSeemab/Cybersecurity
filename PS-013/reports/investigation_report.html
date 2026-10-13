@@ -1,0 +1,787 @@
+<!doctype html><html><head><meta charset="utf-8"><title>PS-013 Investigation Report</title>
+<style>body{font-family:Arial,sans-serif;max-width:1100px;margin:32px auto;padding:0 18px;color:#202733}
+.notice{background:#fff4d6;padding:12px;border-left:4px solid #bd8b16}
+.finding{border:1px solid #d8dee8;border-radius:8px;padding:14px;margin:14px 0}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{border:1px solid #d8dee8;padding:7px;text-align:left}
+th{background:#f0f3f8}h1{margin-bottom:4px}</style></head><body>
+<h1>PS-013 Investigation Report</h1><p>Explainable Incident Reconstruction and Evidence Correlation Framework</p>
+<div class="notice"><b>Research prototype notice:</b> Findings are rule-based investigative leads, not proof of compromise.
+Scores are heuristic evidence-strength indicators, not probabilities. Validate against source logs.</div>
+<h2>Findings</h2><section class='finding'><h2>Repeated authentication failures followed by success</h2><p><b>Rule:</b> R1 | <b>Severity:</b> medium | <b>Evidence strength:</b> 100.0 / 100</p><p>3 failed login event(s) were followed by a successful login for the same user and host within 10 minutes. This may indicate credential guessing, but can also have a benign cause.</p><p><b>Evidence event IDs:</b> E001, E002, E003, E004</p></section><section class='finding'><h2>Repeated authentication failures followed by success</h2><p><b>Rule:</b> R1 | <b>Severity:</b> medium | <b>Evidence strength:</b> 100.0 / 100</p><p>3 failed login event(s) were followed by a successful login for the same user and host within 10 minutes. This may indicate credential guessing, but can also have a benign cause.</p><p><b>Evidence event IDs:</b> E008, E009, E010, E011</p></section><section class='finding'><h2>Repeated authentication failures followed by success</h2><p><b>Rule:</b> R1 | <b>Severity:</b> medium | <b>Evidence strength:</b> 100.0 / 100</p><p>3 failed login event(s) were followed by a successful login for the same user and host within 10 minutes. This may indicate credential guessing, but can also have a benign cause.</p><p><b>Evidence event IDs:</b> E015, E016, E017, E018</p></section><section class='finding'><h2>Repeated authentication failures followed by success</h2><p><b>Rule:</b> R1 | <b>Severity:</b> medium | <b>Evidence strength:</b> 100.0 / 100</p><p>3 failed login event(s) were followed by a successful login for the same user and host within 10 minutes. This may indicate credential guessing, but can also have a benign cause.</p><p><b>Evidence event IDs:</b> E022, E023, E024, E025</p></section><section class='finding'><h2>Repeated authentication failures followed by success</h2><p><b>Rule:</b> R1 | <b>Severity:</b> medium | <b>Evidence strength:</b> 100.0 / 100</p><p>3 failed login event(s) were followed by a successful login for the same user and host within 10 minutes. This may indicate credential guessing, but can also have a benign cause.</p><p><b>Evidence event IDs:</b> E029, E030, E031, E032</p></section><section class='finding'><h2>Repeated authentication failures followed by success</h2><p><b>Rule:</b> R1 | <b>Severity:</b> medium | <b>Evidence strength:</b> 100.0 / 100</p><p>3 failed login event(s) were followed by a successful login for the same user and host within 10 minutes. This may indicate credential guessing, but can also have a benign cause.</p><p><b>Evidence event IDs:</b> E036, E037, E038, E039</p></section><section class='finding'><h2>Repeated authentication failures followed by success</h2><p><b>Rule:</b> R1 | <b>Severity:</b> medium | <b>Evidence strength:</b> 100.0 / 100</p><p>3 failed login event(s) were followed by a successful login for the same user and host within 10 minutes. This may indicate credential guessing, but can also have a benign cause.</p><p><b>Evidence event IDs:</b> E043, E044, E045, E046</p></section><section class='finding'><h2>Repeated authentication failures followed by success</h2><p><b>Rule:</b> R1 | <b>Severity:</b> medium | <b>Evidence strength:</b> 100.0 / 100</p><p>3 failed login event(s) were followed by a successful login for the same user and host within 10 minutes. This may indicate credential guessing, but can also have a benign cause.</p><p><b>Evidence event IDs:</b> E050, E051, E052, E053</p></section><section class='finding'><h2>Repeated authentication failures followed by success</h2><p><b>Rule:</b> R1 | <b>Severity:</b> medium | <b>Evidence strength:</b> 100.0 / 100</p><p>3 failed login event(s) were followed by a successful login for the same user and host within 10 minutes. This may indicate credential guessing, but can also have a benign cause.</p><p><b>Evidence event IDs:</b> E057, E058, E059, E060</p></section><section class='finding'><h2>Repeated authentication failures followed by success</h2><p><b>Rule:</b> R1 | <b>Severity:</b> medium | <b>Evidence strength:</b> 100.0 / 100</p><p>3 failed login event(s) were followed by a successful login for the same user and host within 10 minutes. This may indicate credential guessing, but can also have a benign cause.</p><p><b>Evidence event IDs:</b> E064, E065, E066, E067</p></section><section class='finding'><h2>Suspicious activity following successful login</h2><p><b>Rule:</b> R2 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>A successful login was followed by powershell_execution, suspicious_download on the same user and host within 30 minutes. Validate process command lines and network context before drawing conclusions.</p><p><b>Evidence event IDs:</b> E004, E005, E006</p></section><section class='finding'><h2>Suspicious activity following successful login</h2><p><b>Rule:</b> R2 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>A successful login was followed by powershell_execution, suspicious_download on the same user and host within 30 minutes. Validate process command lines and network context before drawing conclusions.</p><p><b>Evidence event IDs:</b> E011, E012, E013</p></section><section class='finding'><h2>Suspicious activity following successful login</h2><p><b>Rule:</b> R2 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>A successful login was followed by powershell_execution, suspicious_download on the same user and host within 30 minutes. Validate process command lines and network context before drawing conclusions.</p><p><b>Evidence event IDs:</b> E018, E019, E020</p></section><section class='finding'><h2>Suspicious activity following successful login</h2><p><b>Rule:</b> R2 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>A successful login was followed by powershell_execution, suspicious_download on the same user and host within 30 minutes. Validate process command lines and network context before drawing conclusions.</p><p><b>Evidence event IDs:</b> E025, E026, E027</p></section><section class='finding'><h2>Suspicious activity following successful login</h2><p><b>Rule:</b> R2 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>A successful login was followed by powershell_execution, suspicious_download on the same user and host within 30 minutes. Validate process command lines and network context before drawing conclusions.</p><p><b>Evidence event IDs:</b> E032, E033, E034</p></section><section class='finding'><h2>Suspicious activity following successful login</h2><p><b>Rule:</b> R2 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>A successful login was followed by powershell_execution, suspicious_download on the same user and host within 30 minutes. Validate process command lines and network context before drawing conclusions.</p><p><b>Evidence event IDs:</b> E039, E040, E041</p></section><section class='finding'><h2>Suspicious activity following successful login</h2><p><b>Rule:</b> R2 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>A successful login was followed by powershell_execution, suspicious_download on the same user and host within 30 minutes. Validate process command lines and network context before drawing conclusions.</p><p><b>Evidence event IDs:</b> E046, E047, E048</p></section><section class='finding'><h2>Suspicious activity following successful login</h2><p><b>Rule:</b> R2 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>A successful login was followed by powershell_execution, suspicious_download on the same user and host within 30 minutes. Validate process command lines and network context before drawing conclusions.</p><p><b>Evidence event IDs:</b> E053, E054, E055</p></section><section class='finding'><h2>Suspicious activity following successful login</h2><p><b>Rule:</b> R2 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>A successful login was followed by powershell_execution, suspicious_download on the same user and host within 30 minutes. Validate process command lines and network context before drawing conclusions.</p><p><b>Evidence event IDs:</b> E060, E061, E062</p></section><section class='finding'><h2>Suspicious activity following successful login</h2><p><b>Rule:</b> R2 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>A successful login was followed by powershell_execution, suspicious_download on the same user and host within 30 minutes. Validate process command lines and network context before drawing conclusions.</p><p><b>Evidence event IDs:</b> E067, E068, E069</p></section><section class='finding'><h2>Suspicious activity following successful login</h2><p><b>Rule:</b> R2 | <b>Severity:</b> medium | <b>Evidence strength:</b> 75.0 / 100</p><p>A successful login was followed by powershell_execution on the same user and host within 30 minutes. Validate process command lines and network context before drawing conclusions.</p><p><b>Evidence event IDs:</b> E071, E072</p></section><section class='finding'><h2>Suspicious activity following successful login</h2><p><b>Rule:</b> R2 | <b>Severity:</b> medium | <b>Evidence strength:</b> 75.0 / 100</p><p>A successful login was followed by powershell_execution on the same user and host within 30 minutes. Validate process command lines and network context before drawing conclusions.</p><p><b>Evidence event IDs:</b> E076, E077</p></section><section class='finding'><h2>Suspicious activity following successful login</h2><p><b>Rule:</b> R2 | <b>Severity:</b> medium | <b>Evidence strength:</b> 75.0 / 100</p><p>A successful login was followed by powershell_execution on the same user and host within 30 minutes. Validate process command lines and network context before drawing conclusions.</p><p><b>Evidence event IDs:</b> E081, E082</p></section><section class='finding'><h2>Execution followed by administrator account creation</h2><p><b>Rule:</b> R3 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>PowerShell execution was followed by administrator-account creation for the same user and host within the configured time window. This may indicate privilege escalation and requires investigation.</p><p><b>Evidence event IDs:</b> E005, E007</p></section><section class='finding'><h2>Execution followed by administrator account creation</h2><p><b>Rule:</b> R3 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>PowerShell execution was followed by administrator-account creation for the same user and host within the configured time window. This may indicate privilege escalation and requires investigation.</p><p><b>Evidence event IDs:</b> E012, E014</p></section><section class='finding'><h2>Execution followed by administrator account creation</h2><p><b>Rule:</b> R3 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>PowerShell execution was followed by administrator-account creation for the same user and host within the configured time window. This may indicate privilege escalation and requires investigation.</p><p><b>Evidence event IDs:</b> E019, E021</p></section><section class='finding'><h2>Execution followed by administrator account creation</h2><p><b>Rule:</b> R3 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>PowerShell execution was followed by administrator-account creation for the same user and host within the configured time window. This may indicate privilege escalation and requires investigation.</p><p><b>Evidence event IDs:</b> E026, E028</p></section><section class='finding'><h2>Execution followed by administrator account creation</h2><p><b>Rule:</b> R3 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>PowerShell execution was followed by administrator-account creation for the same user and host within the configured time window. This may indicate privilege escalation and requires investigation.</p><p><b>Evidence event IDs:</b> E033, E035</p></section><section class='finding'><h2>Execution followed by administrator account creation</h2><p><b>Rule:</b> R3 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>PowerShell execution was followed by administrator-account creation for the same user and host within the configured time window. This may indicate privilege escalation and requires investigation.</p><p><b>Evidence event IDs:</b> E040, E042</p></section><section class='finding'><h2>Execution followed by administrator account creation</h2><p><b>Rule:</b> R3 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>PowerShell execution was followed by administrator-account creation for the same user and host within the configured time window. This may indicate privilege escalation and requires investigation.</p><p><b>Evidence event IDs:</b> E047, E049</p></section><section class='finding'><h2>Execution followed by administrator account creation</h2><p><b>Rule:</b> R3 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>PowerShell execution was followed by administrator-account creation for the same user and host within the configured time window. This may indicate privilege escalation and requires investigation.</p><p><b>Evidence event IDs:</b> E054, E056</p></section><section class='finding'><h2>Execution followed by administrator account creation</h2><p><b>Rule:</b> R3 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>PowerShell execution was followed by administrator-account creation for the same user and host within the configured time window. This may indicate privilege escalation and requires investigation.</p><p><b>Evidence event IDs:</b> E061, E063</p></section><section class='finding'><h2>Execution followed by administrator account creation</h2><p><b>Rule:</b> R3 | <b>Severity:</b> high | <b>Evidence strength:</b> 100.0 / 100</p><p>PowerShell execution was followed by administrator-account creation for the same user and host within the configured time window. This may indicate privilege escalation and requires investigation.</p><p><b>Evidence event IDs:</b> E068, E070</p></section>
+<h2>Reconstructed timeline</h2><table border="1" class="dataframe timeline">
+  <thead>
+    <tr style="text-align: right;">
+      <th>event_id</th>
+      <th>timestamp</th>
+      <th>event_type</th>
+      <th>user</th>
+      <th>source_ip</th>
+      <th>host</th>
+      <th>details</th>
+      <th>related_findings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>E001</td>
+      <td>2026-10-01 10:00:00+00:00</td>
+      <td>failed_login</td>
+      <td>user01</td>
+      <td>192.0.2.1</td>
+      <td>WS-01</td>
+      <td>Authentication failure</td>
+      <td>F001</td>
+    </tr>
+    <tr>
+      <td>E002</td>
+      <td>2026-10-01 10:01:00+00:00</td>
+      <td>failed_login</td>
+      <td>user01</td>
+      <td>192.0.2.1</td>
+      <td>WS-01</td>
+      <td>Authentication failure</td>
+      <td>F001</td>
+    </tr>
+    <tr>
+      <td>E003</td>
+      <td>2026-10-01 10:02:00+00:00</td>
+      <td>failed_login</td>
+      <td>user01</td>
+      <td>192.0.2.1</td>
+      <td>WS-01</td>
+      <td>Authentication failure</td>
+      <td>F001</td>
+    </tr>
+    <tr>
+      <td>E004</td>
+      <td>2026-10-01 10:03:00+00:00</td>
+      <td>successful_login</td>
+      <td>user01</td>
+      <td>192.0.2.1</td>
+      <td>WS-01</td>
+      <td>Authentication success after repeated failures</td>
+      <td>F001, F011</td>
+    </tr>
+    <tr>
+      <td>E005</td>
+      <td>2026-10-01 10:08:00+00:00</td>
+      <td>powershell_execution</td>
+      <td>user01</td>
+      <td>192.0.2.1</td>
+      <td>WS-01</td>
+      <td>PowerShell process launched; synthetic command metadata</td>
+      <td>F011, F024</td>
+    </tr>
+    <tr>
+      <td>E006</td>
+      <td>2026-10-01 10:10:00+00:00</td>
+      <td>suspicious_download</td>
+      <td>user01</td>
+      <td>192.0.2.1</td>
+      <td>WS-01</td>
+      <td>Download from an untrusted test URL; synthetic event</td>
+      <td>F011</td>
+    </tr>
+    <tr>
+      <td>E007</td>
+      <td>2026-10-01 10:12:00+00:00</td>
+      <td>admin_account_created</td>
+      <td>user01</td>
+      <td>192.0.2.1</td>
+      <td>WS-01</td>
+      <td>New administrator account created; synthetic event</td>
+      <td>F024</td>
+    </tr>
+    <tr>
+      <td>E008</td>
+      <td>2026-10-01 12:00:00+00:00</td>
+      <td>failed_login</td>
+      <td>user02</td>
+      <td>192.0.2.2</td>
+      <td>WS-02</td>
+      <td>Authentication failure</td>
+      <td>F002</td>
+    </tr>
+    <tr>
+      <td>E009</td>
+      <td>2026-10-01 12:01:00+00:00</td>
+      <td>failed_login</td>
+      <td>user02</td>
+      <td>192.0.2.2</td>
+      <td>WS-02</td>
+      <td>Authentication failure</td>
+      <td>F002</td>
+    </tr>
+    <tr>
+      <td>E010</td>
+      <td>2026-10-01 12:02:00+00:00</td>
+      <td>failed_login</td>
+      <td>user02</td>
+      <td>192.0.2.2</td>
+      <td>WS-02</td>
+      <td>Authentication failure</td>
+      <td>F002</td>
+    </tr>
+    <tr>
+      <td>E011</td>
+      <td>2026-10-01 12:03:00+00:00</td>
+      <td>successful_login</td>
+      <td>user02</td>
+      <td>192.0.2.2</td>
+      <td>WS-02</td>
+      <td>Authentication success after repeated failures</td>
+      <td>F002, F012</td>
+    </tr>
+    <tr>
+      <td>E012</td>
+      <td>2026-10-01 12:08:00+00:00</td>
+      <td>powershell_execution</td>
+      <td>user02</td>
+      <td>192.0.2.2</td>
+      <td>WS-02</td>
+      <td>PowerShell process launched; synthetic command metadata</td>
+      <td>F012, F025</td>
+    </tr>
+    <tr>
+      <td>E013</td>
+      <td>2026-10-01 12:10:00+00:00</td>
+      <td>suspicious_download</td>
+      <td>user02</td>
+      <td>192.0.2.2</td>
+      <td>WS-02</td>
+      <td>Download from an untrusted test URL; synthetic event</td>
+      <td>F012</td>
+    </tr>
+    <tr>
+      <td>E014</td>
+      <td>2026-10-01 12:12:00+00:00</td>
+      <td>admin_account_created</td>
+      <td>user02</td>
+      <td>192.0.2.2</td>
+      <td>WS-02</td>
+      <td>New administrator account created; synthetic event</td>
+      <td>F025</td>
+    </tr>
+    <tr>
+      <td>E015</td>
+      <td>2026-10-01 14:00:00+00:00</td>
+      <td>failed_login</td>
+      <td>user03</td>
+      <td>192.0.2.3</td>
+      <td>WS-03</td>
+      <td>Authentication failure</td>
+      <td>F003</td>
+    </tr>
+    <tr>
+      <td>E016</td>
+      <td>2026-10-01 14:01:00+00:00</td>
+      <td>failed_login</td>
+      <td>user03</td>
+      <td>192.0.2.3</td>
+      <td>WS-03</td>
+      <td>Authentication failure</td>
+      <td>F003</td>
+    </tr>
+    <tr>
+      <td>E017</td>
+      <td>2026-10-01 14:02:00+00:00</td>
+      <td>failed_login</td>
+      <td>user03</td>
+      <td>192.0.2.3</td>
+      <td>WS-03</td>
+      <td>Authentication failure</td>
+      <td>F003</td>
+    </tr>
+    <tr>
+      <td>E018</td>
+      <td>2026-10-01 14:03:00+00:00</td>
+      <td>successful_login</td>
+      <td>user03</td>
+      <td>192.0.2.3</td>
+      <td>WS-03</td>
+      <td>Authentication success after repeated failures</td>
+      <td>F003, F013</td>
+    </tr>
+    <tr>
+      <td>E019</td>
+      <td>2026-10-01 14:08:00+00:00</td>
+      <td>powershell_execution</td>
+      <td>user03</td>
+      <td>192.0.2.3</td>
+      <td>WS-03</td>
+      <td>PowerShell process launched; synthetic command metadata</td>
+      <td>F013, F026</td>
+    </tr>
+    <tr>
+      <td>E020</td>
+      <td>2026-10-01 14:10:00+00:00</td>
+      <td>suspicious_download</td>
+      <td>user03</td>
+      <td>192.0.2.3</td>
+      <td>WS-03</td>
+      <td>Download from an untrusted test URL; synthetic event</td>
+      <td>F013</td>
+    </tr>
+    <tr>
+      <td>E021</td>
+      <td>2026-10-01 14:12:00+00:00</td>
+      <td>admin_account_created</td>
+      <td>user03</td>
+      <td>192.0.2.3</td>
+      <td>WS-03</td>
+      <td>New administrator account created; synthetic event</td>
+      <td>F026</td>
+    </tr>
+    <tr>
+      <td>E022</td>
+      <td>2026-10-01 16:00:00+00:00</td>
+      <td>failed_login</td>
+      <td>user04</td>
+      <td>192.0.2.4</td>
+      <td>WS-04</td>
+      <td>Authentication failure</td>
+      <td>F004</td>
+    </tr>
+    <tr>
+      <td>E023</td>
+      <td>2026-10-01 16:01:00+00:00</td>
+      <td>failed_login</td>
+      <td>user04</td>
+      <td>192.0.2.4</td>
+      <td>WS-04</td>
+      <td>Authentication failure</td>
+      <td>F004</td>
+    </tr>
+    <tr>
+      <td>E024</td>
+      <td>2026-10-01 16:02:00+00:00</td>
+      <td>failed_login</td>
+      <td>user04</td>
+      <td>192.0.2.4</td>
+      <td>WS-04</td>
+      <td>Authentication failure</td>
+      <td>F004</td>
+    </tr>
+    <tr>
+      <td>E025</td>
+      <td>2026-10-01 16:03:00+00:00</td>
+      <td>successful_login</td>
+      <td>user04</td>
+      <td>192.0.2.4</td>
+      <td>WS-04</td>
+      <td>Authentication success after repeated failures</td>
+      <td>F004, F014</td>
+    </tr>
+    <tr>
+      <td>E026</td>
+      <td>2026-10-01 16:08:00+00:00</td>
+      <td>powershell_execution</td>
+      <td>user04</td>
+      <td>192.0.2.4</td>
+      <td>WS-04</td>
+      <td>PowerShell process launched; synthetic command metadata</td>
+      <td>F014, F027</td>
+    </tr>
+    <tr>
+      <td>E027</td>
+      <td>2026-10-01 16:10:00+00:00</td>
+      <td>suspicious_download</td>
+      <td>user04</td>
+      <td>192.0.2.4</td>
+      <td>WS-04</td>
+      <td>Download from an untrusted test URL; synthetic event</td>
+      <td>F014</td>
+    </tr>
+    <tr>
+      <td>E028</td>
+      <td>2026-10-01 16:12:00+00:00</td>
+      <td>admin_account_created</td>
+      <td>user04</td>
+      <td>192.0.2.4</td>
+      <td>WS-04</td>
+      <td>New administrator account created; synthetic event</td>
+      <td>F027</td>
+    </tr>
+    <tr>
+      <td>E029</td>
+      <td>2026-10-01 18:00:00+00:00</td>
+      <td>failed_login</td>
+      <td>user05</td>
+      <td>192.0.2.5</td>
+      <td>WS-05</td>
+      <td>Authentication failure</td>
+      <td>F005</td>
+    </tr>
+    <tr>
+      <td>E030</td>
+      <td>2026-10-01 18:01:00+00:00</td>
+      <td>failed_login</td>
+      <td>user05</td>
+      <td>192.0.2.5</td>
+      <td>WS-05</td>
+      <td>Authentication failure</td>
+      <td>F005</td>
+    </tr>
+    <tr>
+      <td>E031</td>
+      <td>2026-10-01 18:02:00+00:00</td>
+      <td>failed_login</td>
+      <td>user05</td>
+      <td>192.0.2.5</td>
+      <td>WS-05</td>
+      <td>Authentication failure</td>
+      <td>F005</td>
+    </tr>
+    <tr>
+      <td>E032</td>
+      <td>2026-10-01 18:03:00+00:00</td>
+      <td>successful_login</td>
+      <td>user05</td>
+      <td>192.0.2.5</td>
+      <td>WS-05</td>
+      <td>Authentication success after repeated failures</td>
+      <td>F005, F015</td>
+    </tr>
+    <tr>
+      <td>E033</td>
+      <td>2026-10-01 18:08:00+00:00</td>
+      <td>powershell_execution</td>
+      <td>user05</td>
+      <td>192.0.2.5</td>
+      <td>WS-05</td>
+      <td>PowerShell process launched; synthetic command metadata</td>
+      <td>F015, F028</td>
+    </tr>
+    <tr>
+      <td>E034</td>
+      <td>2026-10-01 18:10:00+00:00</td>
+      <td>suspicious_download</td>
+      <td>user05</td>
+      <td>192.0.2.5</td>
+      <td>WS-05</td>
+      <td>Download from an untrusted test URL; synthetic event</td>
+      <td>F015</td>
+    </tr>
+    <tr>
+      <td>E035</td>
+      <td>2026-10-01 18:12:00+00:00</td>
+      <td>admin_account_created</td>
+      <td>user05</td>
+      <td>192.0.2.5</td>
+      <td>WS-05</td>
+      <td>New administrator account created; synthetic event</td>
+      <td>F028</td>
+    </tr>
+    <tr>
+      <td>E036</td>
+      <td>2026-10-01 20:00:00+00:00</td>
+      <td>failed_login</td>
+      <td>user06</td>
+      <td>192.0.2.6</td>
+      <td>WS-06</td>
+      <td>Authentication failure</td>
+      <td>F006</td>
+    </tr>
+    <tr>
+      <td>E037</td>
+      <td>2026-10-01 20:01:00+00:00</td>
+      <td>failed_login</td>
+      <td>user06</td>
+      <td>192.0.2.6</td>
+      <td>WS-06</td>
+      <td>Authentication failure</td>
+      <td>F006</td>
+    </tr>
+    <tr>
+      <td>E038</td>
+      <td>2026-10-01 20:02:00+00:00</td>
+      <td>failed_login</td>
+      <td>user06</td>
+      <td>192.0.2.6</td>
+      <td>WS-06</td>
+      <td>Authentication failure</td>
+      <td>F006</td>
+    </tr>
+    <tr>
+      <td>E039</td>
+      <td>2026-10-01 20:03:00+00:00</td>
+      <td>successful_login</td>
+      <td>user06</td>
+      <td>192.0.2.6</td>
+      <td>WS-06</td>
+      <td>Authentication success after repeated failures</td>
+      <td>F006, F016</td>
+    </tr>
+    <tr>
+      <td>E040</td>
+      <td>2026-10-01 20:08:00+00:00</td>
+      <td>powershell_execution</td>
+      <td>user06</td>
+      <td>192.0.2.6</td>
+      <td>WS-06</td>
+      <td>PowerShell process launched; synthetic command metadata</td>
+      <td>F016, F029</td>
+    </tr>
+    <tr>
+      <td>E041</td>
+      <td>2026-10-01 20:10:00+00:00</td>
+      <td>suspicious_download</td>
+      <td>user06</td>
+      <td>192.0.2.6</td>
+      <td>WS-06</td>
+      <td>Download from an untrusted test URL; synthetic event</td>
+      <td>F016</td>
+    </tr>
+    <tr>
+      <td>E042</td>
+      <td>2026-10-01 20:12:00+00:00</td>
+      <td>admin_account_created</td>
+      <td>user06</td>
+      <td>192.0.2.6</td>
+      <td>WS-06</td>
+      <td>New administrator account created; synthetic event</td>
+      <td>F029</td>
+    </tr>
+    <tr>
+      <td>E043</td>
+      <td>2026-10-01 22:00:00+00:00</td>
+      <td>failed_login</td>
+      <td>user07</td>
+      <td>192.0.2.7</td>
+      <td>WS-07</td>
+      <td>Authentication failure</td>
+      <td>F007</td>
+    </tr>
+    <tr>
+      <td>E044</td>
+      <td>2026-10-01 22:01:00+00:00</td>
+      <td>failed_login</td>
+      <td>user07</td>
+      <td>192.0.2.7</td>
+      <td>WS-07</td>
+      <td>Authentication failure</td>
+      <td>F007</td>
+    </tr>
+    <tr>
+      <td>E045</td>
+      <td>2026-10-01 22:02:00+00:00</td>
+      <td>failed_login</td>
+      <td>user07</td>
+      <td>192.0.2.7</td>
+      <td>WS-07</td>
+      <td>Authentication failure</td>
+      <td>F007</td>
+    </tr>
+    <tr>
+      <td>E046</td>
+      <td>2026-10-01 22:03:00+00:00</td>
+      <td>successful_login</td>
+      <td>user07</td>
+      <td>192.0.2.7</td>
+      <td>WS-07</td>
+      <td>Authentication success after repeated failures</td>
+      <td>F007, F017</td>
+    </tr>
+    <tr>
+      <td>E047</td>
+      <td>2026-10-01 22:08:00+00:00</td>
+      <td>powershell_execution</td>
+      <td>user07</td>
+      <td>192.0.2.7</td>
+      <td>WS-07</td>
+      <td>PowerShell process launched; synthetic command metadata</td>
+      <td>F017, F030</td>
+    </tr>
+    <tr>
+      <td>E048</td>
+      <td>2026-10-01 22:10:00+00:00</td>
+      <td>suspicious_download</td>
+      <td>user07</td>
+      <td>192.0.2.7</td>
+      <td>WS-07</td>
+      <td>Download from an untrusted test URL; synthetic event</td>
+      <td>F017</td>
+    </tr>
+    <tr>
+      <td>E049</td>
+      <td>2026-10-01 22:12:00+00:00</td>
+      <td>admin_account_created</td>
+      <td>user07</td>
+      <td>192.0.2.7</td>
+      <td>WS-07</td>
+      <td>New administrator account created; synthetic event</td>
+      <td>F030</td>
+    </tr>
+    <tr>
+      <td>E050</td>
+      <td>2026-10-02 00:00:00+00:00</td>
+      <td>failed_login</td>
+      <td>user08</td>
+      <td>192.0.2.8</td>
+      <td>WS-08</td>
+      <td>Authentication failure</td>
+      <td>F008</td>
+    </tr>
+    <tr>
+      <td>E051</td>
+      <td>2026-10-02 00:01:00+00:00</td>
+      <td>failed_login</td>
+      <td>user08</td>
+      <td>192.0.2.8</td>
+      <td>WS-08</td>
+      <td>Authentication failure</td>
+      <td>F008</td>
+    </tr>
+    <tr>
+      <td>E052</td>
+      <td>2026-10-02 00:02:00+00:00</td>
+      <td>failed_login</td>
+      <td>user08</td>
+      <td>192.0.2.8</td>
+      <td>WS-08</td>
+      <td>Authentication failure</td>
+      <td>F008</td>
+    </tr>
+    <tr>
+      <td>E053</td>
+      <td>2026-10-02 00:03:00+00:00</td>
+      <td>successful_login</td>
+      <td>user08</td>
+      <td>192.0.2.8</td>
+      <td>WS-08</td>
+      <td>Authentication success after repeated failures</td>
+      <td>F008, F018</td>
+    </tr>
+    <tr>
+      <td>E054</td>
+      <td>2026-10-02 00:08:00+00:00</td>
+      <td>powershell_execution</td>
+      <td>user08</td>
+      <td>192.0.2.8</td>
+      <td>WS-08</td>
+      <td>PowerShell process launched; synthetic command metadata</td>
+      <td>F018, F031</td>
+    </tr>
+    <tr>
+      <td>E055</td>
+      <td>2026-10-02 00:10:00+00:00</td>
+      <td>suspicious_download</td>
+      <td>user08</td>
+      <td>192.0.2.8</td>
+      <td>WS-08</td>
+      <td>Download from an untrusted test URL; synthetic event</td>
+      <td>F018</td>
+    </tr>
+    <tr>
+      <td>E056</td>
+      <td>2026-10-02 00:12:00+00:00</td>
+      <td>admin_account_created</td>
+      <td>user08</td>
+      <td>192.0.2.8</td>
+      <td>WS-08</td>
+      <td>New administrator account created; synthetic event</td>
+      <td>F031</td>
+    </tr>
+    <tr>
+      <td>E057</td>
+      <td>2026-10-02 02:00:00+00:00</td>
+      <td>failed_login</td>
+      <td>user09</td>
+      <td>192.0.2.9</td>
+      <td>WS-09</td>
+      <td>Authentication failure</td>
+      <td>F009</td>
+    </tr>
+    <tr>
+      <td>E058</td>
+      <td>2026-10-02 02:01:00+00:00</td>
+      <td>failed_login</td>
+      <td>user09</td>
+      <td>192.0.2.9</td>
+      <td>WS-09</td>
+      <td>Authentication failure</td>
+      <td>F009</td>
+    </tr>
+    <tr>
+      <td>E059</td>
+      <td>2026-10-02 02:02:00+00:00</td>
+      <td>failed_login</td>
+      <td>user09</td>
+      <td>192.0.2.9</td>
+      <td>WS-09</td>
+      <td>Authentication failure</td>
+      <td>F009</td>
+    </tr>
+    <tr>
+      <td>E060</td>
+      <td>2026-10-02 02:03:00+00:00</td>
+      <td>successful_login</td>
+      <td>user09</td>
+      <td>192.0.2.9</td>
+      <td>WS-09</td>
+      <td>Authentication success after repeated failures</td>
+      <td>F009, F019</td>
+    </tr>
+    <tr>
+      <td>E061</td>
+      <td>2026-10-02 02:08:00+00:00</td>
+      <td>powershell_execution</td>
+      <td>user09</td>
+      <td>192.0.2.9</td>
+      <td>WS-09</td>
+      <td>PowerShell process launched; synthetic command metadata</td>
+      <td>F019, F032</td>
+    </tr>
+    <tr>
+      <td>E062</td>
+      <td>2026-10-02 02:10:00+00:00</td>
+      <td>suspicious_download</td>
+      <td>user09</td>
+      <td>192.0.2.9</td>
+      <td>WS-09</td>
+      <td>Download from an untrusted test URL; synthetic event</td>
+      <td>F019</td>
+    </tr>
+    <tr>
+      <td>E063</td>
+      <td>2026-10-02 02:12:00+00:00</td>
+      <td>admin_account_created</td>
+      <td>user09</td>
+      <td>192.0.2.9</td>
+      <td>WS-09</td>
+      <td>New administrator account created; synthetic event</td>
+      <td>F032</td>
+    </tr>
+    <tr>
+      <td>E064</td>
+      <td>2026-10-02 04:00:00+00:00</td>
+      <td>failed_login</td>
+      <td>user10</td>
+      <td>192.0.2.10</td>
+      <td>WS-10</td>
+      <td>Authentication failure</td>
+      <td>F010</td>
+    </tr>
+    <tr>
+      <td>E065</td>
+      <td>2026-10-02 04:01:00+00:00</td>
+      <td>failed_login</td>
+      <td>user10</td>
+      <td>192.0.2.10</td>
+      <td>WS-10</td>
+      <td>Authentication failure</td>
+      <td>F010</td>
+    </tr>
+    <tr>
+      <td>E066</td>
+      <td>2026-10-02 04:02:00+00:00</td>
+      <td>failed_login</td>
+      <td>user10</td>
+      <td>192.0.2.10</td>
+      <td>WS-10</td>
+      <td>Authentication failure</td>
+      <td>F010</td>
+    </tr>
+    <tr>
+      <td>E067</td>
+      <td>2026-10-02 04:03:00+00:00</td>
+      <td>successful_login</td>
+      <td>user10</td>
+      <td>192.0.2.10</td>
+      <td>WS-10</td>
+      <td>Authentication success after repeated failures</td>
+      <td>F010, F020</td>
+    </tr>
+    <tr>
+      <td>E068</td>
+      <td>2026-10-02 04:08:00+00:00</td>
+      <td>powershell_execution</td>
+      <td>user10</td>
+      <td>192.0.2.10</td>
+      <td>WS-10</td>
+      <td>PowerShell process launched; synthetic command metadata</td>
+      <td>F020, F033</td>
+    </tr>
+    <tr>
+      <td>E069</td>
+      <td>2026-10-02 04:10:00+00:00</td>
+      <td>suspicious_download</td>
+      <td>user10</td>
+      <td>192.0.2.10</td>
+      <td>WS-10</td>
+      <td>Download from an untrusted test URL; synthetic event</td>
+      <td>F020</td>
+    </tr>
+    <tr>
+      <td>E070</td>
+      <td>2026-10-02 04:12:00+00:00</td>
+      <td>admin_account_created</td>
+      <td>user10</td>
+      <td>192.0.2.10</td>
+      <td>WS-10</td>
+      <td>New administrator account created; synthetic event</td>
+      <td>F033</td>
+    </tr>
+    <tr>
+      <td>E071</td>
+      <td>2026-10-02 11:00:00+00:00</td>
+      <td>successful_login</td>
+      <td>service01</td>
+      <td>198.51.100.1</td>
+      <td>SRV-01</td>
+      <td>Approved maintenance login</td>
+      <td>F021</td>
+    </tr>
+    <tr>
+      <td>E072</td>
+      <td>2026-10-02 11:05:00+00:00</td>
+      <td>powershell_execution</td>
+      <td>service01</td>
+      <td>198.51.100.1</td>
+      <td>SRV-01</td>
+      <td>Approved signed maintenance script</td>
+      <td>F021</td>
+    </tr>
+    <tr>
+      <td>E076</td>
+      <td>2026-10-02 13:00:00+00:00</td>
+      <td>successful_login</td>
+      <td>service02</td>
+      <td>198.51.100.2</td>
+      <td>SRV-02</td>
+      <td>Approved maintenance login</td>
+      <td>F022</td>
+    </tr>
+    <tr>
+      <td>E077</td>
+      <td>2026-10-02 13:05:00+00:00</td>
+      <td>powershell_execution</td>
+      <td>service02</td>
+      <td>198.51.100.2</td>
+      <td>SRV-02</td>
+      <td>Approved signed maintenance script</td>
+      <td>F022</td>
+    </tr>
+    <tr>
+      <td>E081</td>
+      <td>2026-10-02 15:00:00+00:00</td>
+      <td>successful_login</td>
+      <td>service03</td>
+      <td>198.51.100.3</td>
+      <td>SRV-03</td>
+      <td>Approved maintenance login</td>
+      <td>F023</td>
+    </tr>
+    <tr>
+      <td>E082</td>
+      <td>2026-10-02 15:05:00+00:00</td>
+      <td>powershell_execution</td>
+      <td>service03</td>
+      <td>198.51.100.3</td>
+      <td>SRV-03</td>
+      <td>Approved signed maintenance script</td>
+      <td>F023</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

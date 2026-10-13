@@ -1,0 +1,6 @@
+{
+  "project": "PS-013",
+  "evaluation_unit": "rule_id + sorted event ID group",
+  "data_type": "synthetic",
+  "note": "Development and test use separate deterministic seeds, but share the same generator logic. This is not independent real-world validation."
+}

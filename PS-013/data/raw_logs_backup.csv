@@ -1,0 +1,101 @@
+event_id,timestamp,event_type,user,source_ip,host,details
+E001,2026-10-01T10:00:00Z,failed_login,user01,192.0.2.1,WS-01,Authentication failure
+E002,2026-10-01T10:01:00Z,failed_login,user01,192.0.2.1,WS-01,Authentication failure
+E003,2026-10-01T10:02:00Z,failed_login,user01,192.0.2.1,WS-01,Authentication failure
+E004,2026-10-01T10:03:00Z,successful_login,user01,192.0.2.1,WS-01,Authentication success after repeated failures
+E005,2026-10-01T10:08:00Z,powershell_execution,user01,192.0.2.1,WS-01,PowerShell process launched; synthetic command metadata
+E006,2026-10-01T10:10:00Z,suspicious_download,user01,192.0.2.1,WS-01,Download from an untrusted test URL; synthetic event
+E007,2026-10-01T10:12:00Z,admin_account_created,user01,192.0.2.1,WS-01,New administrator account created; synthetic event
+E008,2026-10-01T12:00:00Z,failed_login,user02,192.0.2.2,WS-02,Authentication failure
+E009,2026-10-01T12:01:00Z,failed_login,user02,192.0.2.2,WS-02,Authentication failure
+E010,2026-10-01T12:02:00Z,failed_login,user02,192.0.2.2,WS-02,Authentication failure
+E011,2026-10-01T12:03:00Z,successful_login,user02,192.0.2.2,WS-02,Authentication success after repeated failures
+E012,2026-10-01T12:08:00Z,powershell_execution,user02,192.0.2.2,WS-02,PowerShell process launched; synthetic command metadata
+E013,2026-10-01T12:10:00Z,suspicious_download,user02,192.0.2.2,WS-02,Download from an untrusted test URL; synthetic event
+E014,2026-10-01T12:12:00Z,admin_account_created,user02,192.0.2.2,WS-02,New administrator account created; synthetic event
+E015,2026-10-01T14:00:00Z,failed_login,user03,192.0.2.3,WS-03,Authentication failure
+E016,2026-10-01T14:01:00Z,failed_login,user03,192.0.2.3,WS-03,Authentication failure
+E017,2026-10-01T14:02:00Z,failed_login,user03,192.0.2.3,WS-03,Authentication failure
+E018,2026-10-01T14:03:00Z,successful_login,user03,192.0.2.3,WS-03,Authentication success after repeated failures
+E019,2026-10-01T14:08:00Z,powershell_execution,user03,192.0.2.3,WS-03,PowerShell process launched; synthetic command metadata
+E020,2026-10-01T14:10:00Z,suspicious_download,user03,192.0.2.3,WS-03,Download from an untrusted test URL; synthetic event
+E021,2026-10-01T14:12:00Z,admin_account_created,user03,192.0.2.3,WS-03,New administrator account created; synthetic event
+E022,2026-10-01T16:00:00Z,failed_login,user04,192.0.2.4,WS-04,Authentication failure
+E023,2026-10-01T16:01:00Z,failed_login,user04,192.0.2.4,WS-04,Authentication failure
+E024,2026-10-01T16:02:00Z,failed_login,user04,192.0.2.4,WS-04,Authentication failure
+E025,2026-10-01T16:03:00Z,successful_login,user04,192.0.2.4,WS-04,Authentication success after repeated failures
+E026,2026-10-01T16:08:00Z,powershell_execution,user04,192.0.2.4,WS-04,PowerShell process launched; synthetic command metadata
+E027,2026-10-01T16:10:00Z,suspicious_download,user04,192.0.2.4,WS-04,Download from an untrusted test URL; synthetic event
+E028,2026-10-01T16:12:00Z,admin_account_created,user04,192.0.2.4,WS-04,New administrator account created; synthetic event
+E029,2026-10-01T18:00:00Z,failed_login,user05,192.0.2.5,WS-05,Authentication failure
+E030,2026-10-01T18:01:00Z,failed_login,user05,192.0.2.5,WS-05,Authentication failure
+E031,2026-10-01T18:02:00Z,failed_login,user05,192.0.2.5,WS-05,Authentication failure
+E032,2026-10-01T18:03:00Z,successful_login,user05,192.0.2.5,WS-05,Authentication success after repeated failures
+E033,2026-10-01T18:08:00Z,powershell_execution,user05,192.0.2.5,WS-05,PowerShell process launched; synthetic command metadata
+E034,2026-10-01T18:10:00Z,suspicious_download,user05,192.0.2.5,WS-05,Download from an untrusted test URL; synthetic event
+E035,2026-10-01T18:12:00Z,admin_account_created,user05,192.0.2.5,WS-05,New administrator account created; synthetic event
+E036,2026-10-01T20:00:00Z,failed_login,user06,192.0.2.6,WS-06,Authentication failure
+E037,2026-10-01T20:01:00Z,failed_login,user06,192.0.2.6,WS-06,Authentication failure
+E038,2026-10-01T20:02:00Z,failed_login,user06,192.0.2.6,WS-06,Authentication failure
+E039,2026-10-01T20:03:00Z,successful_login,user06,192.0.2.6,WS-06,Authentication success after repeated failures
+E040,2026-10-01T20:08:00Z,powershell_execution,user06,192.0.2.6,WS-06,PowerShell process launched; synthetic command metadata
+E041,2026-10-01T20:10:00Z,suspicious_download,user06,192.0.2.6,WS-06,Download from an untrusted test URL; synthetic event
+E042,2026-10-01T20:12:00Z,admin_account_created,user06,192.0.2.6,WS-06,New administrator account created; synthetic event
+E043,2026-10-01T22:00:00Z,failed_login,user07,192.0.2.7,WS-07,Authentication failure
+E044,2026-10-01T22:01:00Z,failed_login,user07,192.0.2.7,WS-07,Authentication failure
+E045,2026-10-01T22:02:00Z,failed_login,user07,192.0.2.7,WS-07,Authentication failure
+E046,2026-10-01T22:03:00Z,successful_login,user07,192.0.2.7,WS-07,Authentication success after repeated failures
+E047,2026-10-01T22:08:00Z,powershell_execution,user07,192.0.2.7,WS-07,PowerShell process launched; synthetic command metadata
+E048,2026-10-01T22:10:00Z,suspicious_download,user07,192.0.2.7,WS-07,Download from an untrusted test URL; synthetic event
+E049,2026-10-01T22:12:00Z,admin_account_created,user07,192.0.2.7,WS-07,New administrator account created; synthetic event
+E050,2026-10-02T00:00:00Z,failed_login,user08,192.0.2.8,WS-08,Authentication failure
+E051,2026-10-02T00:01:00Z,failed_login,user08,192.0.2.8,WS-08,Authentication failure
+E052,2026-10-02T00:02:00Z,failed_login,user08,192.0.2.8,WS-08,Authentication failure
+E053,2026-10-02T00:03:00Z,successful_login,user08,192.0.2.8,WS-08,Authentication success after repeated failures
+E054,2026-10-02T00:08:00Z,powershell_execution,user08,192.0.2.8,WS-08,PowerShell process launched; synthetic command metadata
+E055,2026-10-02T00:10:00Z,suspicious_download,user08,192.0.2.8,WS-08,Download from an untrusted test URL; synthetic event
+E056,2026-10-02T00:12:00Z,admin_account_created,user08,192.0.2.8,WS-08,New administrator account created; synthetic event
+E057,2026-10-02T02:00:00Z,failed_login,user09,192.0.2.9,WS-09,Authentication failure
+E058,2026-10-02T02:01:00Z,failed_login,user09,192.0.2.9,WS-09,Authentication failure
+E059,2026-10-02T02:02:00Z,failed_login,user09,192.0.2.9,WS-09,Authentication failure
+E060,2026-10-02T02:03:00Z,successful_login,user09,192.0.2.9,WS-09,Authentication success after repeated failures
+E061,2026-10-02T02:08:00Z,powershell_execution,user09,192.0.2.9,WS-09,PowerShell process launched; synthetic command metadata
+E062,2026-10-02T02:10:00Z,suspicious_download,user09,192.0.2.9,WS-09,Download from an untrusted test URL; synthetic event
+E063,2026-10-02T02:12:00Z,admin_account_created,user09,192.0.2.9,WS-09,New administrator account created; synthetic event
+E064,2026-10-02T04:00:00Z,failed_login,user10,192.0.2.10,WS-10,Authentication failure
+E065,2026-10-02T04:01:00Z,failed_login,user10,192.0.2.10,WS-10,Authentication failure
+E066,2026-10-02T04:02:00Z,failed_login,user10,192.0.2.10,WS-10,Authentication failure
+E067,2026-10-02T04:03:00Z,successful_login,user10,192.0.2.10,WS-10,Authentication success after repeated failures
+E068,2026-10-02T04:08:00Z,powershell_execution,user10,192.0.2.10,WS-10,PowerShell process launched; synthetic command metadata
+E069,2026-10-02T04:10:00Z,suspicious_download,user10,192.0.2.10,WS-10,Download from an untrusted test URL; synthetic event
+E070,2026-10-02T04:12:00Z,admin_account_created,user10,192.0.2.10,WS-10,New administrator account created; synthetic event
+E071,2026-10-02T11:00:00Z,successful_login,service01,198.51.100.1,SRV-01,Approved maintenance login
+E072,2026-10-02T11:05:00Z,powershell_execution,service01,198.51.100.1,SRV-01,Approved signed maintenance script
+E073,2026-10-02T11:08:00Z,normal_file_access,service01,198.51.100.1,SRV-01,Routine file access
+E074,2026-10-02T11:15:00Z,service_health_check,service01,198.51.100.1,SRV-01,Scheduled service health check
+E075,2026-10-02T11:25:00Z,normal_logout,service01,198.51.100.1,SRV-01,Session ended normally
+E076,2026-10-02T13:00:00Z,successful_login,service02,198.51.100.2,SRV-02,Approved maintenance login
+E077,2026-10-02T13:05:00Z,powershell_execution,service02,198.51.100.2,SRV-02,Approved signed maintenance script
+E078,2026-10-02T13:08:00Z,normal_file_access,service02,198.51.100.2,SRV-02,Routine file access
+E079,2026-10-02T13:15:00Z,service_health_check,service02,198.51.100.2,SRV-02,Scheduled service health check
+E080,2026-10-02T13:25:00Z,normal_logout,service02,198.51.100.2,SRV-02,Session ended normally
+E081,2026-10-02T15:00:00Z,successful_login,service03,198.51.100.3,SRV-03,Approved maintenance login
+E082,2026-10-02T15:05:00Z,powershell_execution,service03,198.51.100.3,SRV-03,Approved signed maintenance script
+E083,2026-10-02T15:08:00Z,normal_file_access,service03,198.51.100.3,SRV-03,Routine file access
+E084,2026-10-02T15:15:00Z,service_health_check,service03,198.51.100.3,SRV-03,Scheduled service health check
+E085,2026-10-02T15:25:00Z,normal_logout,service03,198.51.100.3,SRV-03,Session ended normally
+E086,2026-10-02T17:00:00Z,failed_login,service04,198.51.100.4,SRV-04,Single authentication failure
+E087,2026-10-02T17:02:00Z,failed_login,service04,198.51.100.4,SRV-04,Second authentication failure
+E088,2026-10-02T17:04:00Z,successful_login,service04,198.51.100.4,SRV-04,Authentication success
+E089,2026-10-02T17:12:00Z,normal_file_access,service04,198.51.100.4,SRV-04,Routine file access
+E090,2026-10-02T17:20:00Z,normal_logout,service04,198.51.100.4,SRV-04,Session ended normally
+E091,2026-10-02T19:00:00Z,successful_login,service05,198.51.100.5,SRV-05,Approved login
+E092,2026-10-02T19:35:00Z,powershell_execution,service05,198.51.100.5,SRV-05,Approved script run outside R2 window
+E093,2026-10-02T20:10:00Z,admin_account_created,service05,198.51.100.5,SRV-05,Approved account provisioning outside R3 window
+E094,2026-10-02T20:20:00Z,normal_file_access,service05,198.51.100.5,SRV-05,Routine file access
+E095,2026-10-02T20:30:00Z,normal_logout,service05,198.51.100.5,SRV-05,Session ended normally
+E096,2026-10-02T21:00:00Z,successful_login,service06,198.51.100.6,SRV-06,Routine authentication success
+E097,2026-10-02T21:03:00Z,normal_file_access,service06,198.51.100.6,SRV-06,Routine file access
+E098,2026-10-02T21:07:00Z,service_health_check,service06,198.51.100.6,SRV-06,Scheduled health check
+E099,2026-10-02T21:14:00Z,normal_file_access,service06,198.51.100.6,SRV-06,Routine file access
+E100,2026-10-02T21:20:00Z,normal_logout,service06,198.51.100.6,SRV-06,Session ended normally

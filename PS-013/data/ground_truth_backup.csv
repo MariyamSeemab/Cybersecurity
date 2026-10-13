@@ -1,0 +1,101 @@
+scenario_id,event_id,is_incident_relevant,expected_rule,notes
+SYN-001,E001,true,R1,Repeated authentication failure sequence
+SYN-001,E002,true,R1,Repeated authentication failure sequence
+SYN-001,E003,true,R1,Repeated authentication failure sequence
+SYN-001,E004,true,R1;R2,Successful login after failures
+SYN-001,E005,true,R2;R3,Execution following login
+SYN-001,E006,true,R2,Suspicious download following login
+SYN-001,E007,true,R3,Privilege-related activity after execution
+SYN-002,E008,true,R1,Repeated authentication failure sequence
+SYN-002,E009,true,R1,Repeated authentication failure sequence
+SYN-002,E010,true,R1,Repeated authentication failure sequence
+SYN-002,E011,true,R1;R2,Successful login after failures
+SYN-002,E012,true,R2;R3,Execution following login
+SYN-002,E013,true,R2,Suspicious download following login
+SYN-002,E014,true,R3,Privilege-related activity after execution
+SYN-003,E015,true,R1,Repeated authentication failure sequence
+SYN-003,E016,true,R1,Repeated authentication failure sequence
+SYN-003,E017,true,R1,Repeated authentication failure sequence
+SYN-003,E018,true,R1;R2,Successful login after failures
+SYN-003,E019,true,R2;R3,Execution following login
+SYN-003,E020,true,R2,Suspicious download following login
+SYN-003,E021,true,R3,Privilege-related activity after execution
+SYN-004,E022,true,R1,Repeated authentication failure sequence
+SYN-004,E023,true,R1,Repeated authentication failure sequence
+SYN-004,E024,true,R1,Repeated authentication failure sequence
+SYN-004,E025,true,R1;R2,Successful login after failures
+SYN-004,E026,true,R2;R3,Execution following login
+SYN-004,E027,true,R2,Suspicious download following login
+SYN-004,E028,true,R3,Privilege-related activity after execution
+SYN-005,E029,true,R1,Repeated authentication failure sequence
+SYN-005,E030,true,R1,Repeated authentication failure sequence
+SYN-005,E031,true,R1,Repeated authentication failure sequence
+SYN-005,E032,true,R1;R2,Successful login after failures
+SYN-005,E033,true,R2;R3,Execution following login
+SYN-005,E034,true,R2,Suspicious download following login
+SYN-005,E035,true,R3,Privilege-related activity after execution
+SYN-006,E036,true,R1,Repeated authentication failure sequence
+SYN-006,E037,true,R1,Repeated authentication failure sequence
+SYN-006,E038,true,R1,Repeated authentication failure sequence
+SYN-006,E039,true,R1;R2,Successful login after failures
+SYN-006,E040,true,R2;R3,Execution following login
+SYN-006,E041,true,R2,Suspicious download following login
+SYN-006,E042,true,R3,Privilege-related activity after execution
+SYN-007,E043,true,R1,Repeated authentication failure sequence
+SYN-007,E044,true,R1,Repeated authentication failure sequence
+SYN-007,E045,true,R1,Repeated authentication failure sequence
+SYN-007,E046,true,R1;R2,Successful login after failures
+SYN-007,E047,true,R2;R3,Execution following login
+SYN-007,E048,true,R2,Suspicious download following login
+SYN-007,E049,true,R3,Privilege-related activity after execution
+SYN-008,E050,true,R1,Repeated authentication failure sequence
+SYN-008,E051,true,R1,Repeated authentication failure sequence
+SYN-008,E052,true,R1,Repeated authentication failure sequence
+SYN-008,E053,true,R1;R2,Successful login after failures
+SYN-008,E054,true,R2;R3,Execution following login
+SYN-008,E055,true,R2,Suspicious download following login
+SYN-008,E056,true,R3,Privilege-related activity after execution
+SYN-009,E057,true,R1,Repeated authentication failure sequence
+SYN-009,E058,true,R1,Repeated authentication failure sequence
+SYN-009,E059,true,R1,Repeated authentication failure sequence
+SYN-009,E060,true,R1;R2,Successful login after failures
+SYN-009,E061,true,R2;R3,Execution following login
+SYN-009,E062,true,R2,Suspicious download following login
+SYN-009,E063,true,R3,Privilege-related activity after execution
+SYN-010,E064,true,R1,Repeated authentication failure sequence
+SYN-010,E065,true,R1,Repeated authentication failure sequence
+SYN-010,E066,true,R1,Repeated authentication failure sequence
+SYN-010,E067,true,R1;R2,Successful login after failures
+SYN-010,E068,true,R2;R3,Execution following login
+SYN-010,E069,true,R2,Suspicious download following login
+SYN-010,E070,true,R3,Privilege-related activity after execution
+SYN-B01,E071,false,,Benign maintenance scenario
+SYN-B01,E072,false,,Approved maintenance activity; possible R2 false-positive risk
+SYN-B01,E073,false,,Benign activity
+SYN-B01,E074,false,,Benign activity
+SYN-B01,E075,false,,Benign activity
+SYN-B02,E076,false,,Benign maintenance scenario
+SYN-B02,E077,false,,Approved maintenance activity; possible R2 false-positive risk
+SYN-B02,E078,false,,Benign activity
+SYN-B02,E079,false,,Benign activity
+SYN-B02,E080,false,,Benign activity
+SYN-B03,E081,false,,Benign maintenance scenario
+SYN-B03,E082,false,,Approved maintenance activity; possible R2 false-positive risk
+SYN-B03,E083,false,,Benign activity
+SYN-B03,E084,false,,Benign activity
+SYN-B03,E085,false,,Benign activity
+SYN-B04,E086,false,,Benign mistyped password
+SYN-B04,E087,false,,Benign mistyped password
+SYN-B04,E088,false,,Benign login after mistyped passwords
+SYN-B04,E089,false,,Benign activity
+SYN-B04,E090,false,,Benign activity
+SYN-B05,E091,false,,Benign activity
+SYN-B05,E092,false,,Outside R2 temporal window
+SYN-B05,E093,false,,Outside R3 temporal window
+SYN-B05,E094,false,,Benign activity
+SYN-B05,E095,false,,Benign activity
+SYN-B06,E096,false,,Benign login
+SYN-B06,E097,false,,Benign activity
+SYN-B06,E098,false,,Benign activity
+SYN-B06,E099,false,,Benign activity
+SYN-B06,E100,false,,Benign activity

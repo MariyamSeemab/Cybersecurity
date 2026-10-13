@@ -1,0 +1,531 @@
+split,method,rule_id,event_ids,reason,confidence
+development,full_framework,R1,development0001|development0002|development0003,3 failed logins for user user_000 on host host_000 within 10 minutes.,0.9
+development,full_framework,R1,development0013|development0014|development0015,3 failed logins for user user_004 on host host_004 within 10 minutes.,0.9
+development,full_framework,R1,development0024|development0025|development0026,3 failed logins for user user_008 on host host_008 within 10 minutes.,0.9
+development,full_framework,R1,development0035|development0036|development0037,3 failed logins for user user_012 on host host_012 within 10 minutes.,0.9
+development,full_framework,R1,development0047|development0048|development0049,3 failed logins for user user_016 on host host_016 within 10 minutes.,0.9
+development,full_framework,R1,development0057|development0058|development0059,3 failed logins for user user_020 on host host_020 within 10 minutes.,0.9
+development,full_framework,R1,development0066|development0067|development0068,3 failed logins for user user_024 on host host_024 within 10 minutes.,0.9
+development,full_framework,R1,development0077|development0078|development0079,3 failed logins for user user_028 on host host_028 within 10 minutes.,0.9
+development,full_framework,R1,development0086|development0087|development0088,3 failed logins for user user_032 on host host_032 within 10 minutes.,0.9
+development,full_framework,R1,development0095|development0096|development0097,3 failed logins for user user_036 on host host_036 within 10 minutes.,0.9
+development,full_framework,R1,development0106|development0107|development0108,3 failed logins for user user_040 on host host_040 within 10 minutes.,0.9
+development,full_framework,R1,development0116|development0117|development0118,3 failed logins for user user_044 on host host_044 within 10 minutes.,0.9
+development,full_framework,R1,development0128|development0129|development0130,3 failed logins for user user_048 on host host_048 within 10 minutes.,0.9
+development,full_framework,R2,development0005|development0006,Successful login followed by powershell_execution for user user_001 on host host_001 within 30 minutes.,0.8
+development,full_framework,R2,development0016|development0017,Successful login followed by powershell_execution for user user_005 on host host_005 within 30 minutes.,0.8
+development,full_framework,R2,development0028|development0029,Successful login followed by powershell_execution for user user_009 on host host_009 within 30 minutes.,0.8
+development,full_framework,R2,development0039|development0040,Successful login followed by powershell_execution for user user_013 on host host_013 within 30 minutes.,0.8
+development,full_framework,R2,development0050|development0051,Successful login followed by powershell_execution for user user_017 on host host_017 within 30 minutes.,0.8
+development,full_framework,R2,development0060|development0061,Successful login followed by powershell_execution for user user_021 on host host_021 within 30 minutes.,0.8
+development,full_framework,R2,development0070|development0071,Successful login followed by powershell_execution for user user_025 on host host_025 within 30 minutes.,0.8
+development,full_framework,R2,development0080|development0081,Successful login followed by powershell_execution for user user_029 on host host_029 within 30 minutes.,0.8
+development,full_framework,R2,development0089|development0090,Successful login followed by powershell_execution for user user_033 on host host_033 within 30 minutes.,0.8
+development,full_framework,R2,development0099|development0100,Successful login followed by powershell_execution for user user_037 on host host_037 within 30 minutes.,0.8
+development,full_framework,R2,development0109|development0110,Successful login followed by powershell_execution for user user_041 on host host_041 within 30 minutes.,0.8
+development,full_framework,R2,development0120|development0121,Successful login followed by powershell_execution for user user_045 on host host_045 within 30 minutes.,0.8
+development,full_framework,R2,development0132|development0133,Successful login followed by powershell_execution for user user_049 on host host_049 within 30 minutes.,0.8
+development,full_framework,R3,development0008,Suspicious download detected for user user_002 on host host_002.,0.95
+development,full_framework,R3,development0019,Suspicious download detected for user user_006 on host host_006.,0.95
+development,full_framework,R3,development0031,Suspicious download detected for user user_010 on host host_010.,0.95
+development,full_framework,R3,development0042,Suspicious download detected for user user_014 on host host_014.,0.95
+development,full_framework,R3,development0053,Suspicious download detected for user user_018 on host host_018.,0.95
+development,full_framework,R3,development0063,Suspicious download detected for user user_022 on host host_022.,0.95
+development,full_framework,R3,development0073,Suspicious download detected for user user_026 on host host_026.,0.95
+development,full_framework,R3,development0082,Suspicious download detected for user user_030 on host host_030.,0.95
+development,full_framework,R3,development0091,Suspicious download detected for user user_034 on host host_034.,0.95
+development,full_framework,R3,development0101,Suspicious download detected for user user_038 on host host_038.,0.95
+development,full_framework,R3,development0112,Suspicious download detected for user user_042 on host host_042.,0.95
+development,full_framework,R3,development0123,Suspicious download detected for user user_046 on host host_046.,0.95
+development,independent_event_baseline,R1,development0001,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0002,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0003,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R2,development0006,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R3,development0008,Baseline matched event type suspicious_download.,0.5
+development,independent_event_baseline,R2,development0011,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R1,development0013,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0014,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0015,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R2,development0017,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R3,development0019,Baseline matched event type suspicious_download.,0.5
+development,independent_event_baseline,R2,development0022,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R1,development0024,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0025,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0026,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R2,development0029,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R3,development0031,Baseline matched event type suspicious_download.,0.5
+development,independent_event_baseline,R2,development0034,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R1,development0035,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0036,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0037,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R2,development0040,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R3,development0042,Baseline matched event type suspicious_download.,0.5
+development,independent_event_baseline,R2,development0045,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R1,development0047,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0048,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0049,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R2,development0051,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R3,development0053,Baseline matched event type suspicious_download.,0.5
+development,independent_event_baseline,R2,development0056,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R1,development0057,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0058,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0059,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R2,development0061,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R3,development0063,Baseline matched event type suspicious_download.,0.5
+development,independent_event_baseline,R2,development0065,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R1,development0066,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0067,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0068,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R2,development0071,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R3,development0073,Baseline matched event type suspicious_download.,0.5
+development,independent_event_baseline,R2,development0075,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R1,development0077,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0078,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0079,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R2,development0081,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R3,development0082,Baseline matched event type suspicious_download.,0.5
+development,independent_event_baseline,R2,development0085,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R1,development0086,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0087,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0088,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R2,development0090,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R3,development0091,Baseline matched event type suspicious_download.,0.5
+development,independent_event_baseline,R2,development0093,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R1,development0095,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0096,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0097,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R2,development0100,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R3,development0101,Baseline matched event type suspicious_download.,0.5
+development,independent_event_baseline,R2,development0104,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R1,development0106,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0107,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0108,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R2,development0110,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R3,development0112,Baseline matched event type suspicious_download.,0.5
+development,independent_event_baseline,R2,development0114,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R1,development0116,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0117,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0118,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R2,development0121,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R3,development0123,Baseline matched event type suspicious_download.,0.5
+development,independent_event_baseline,R2,development0126,Baseline matched event type powershell_execution.,0.5
+development,independent_event_baseline,R1,development0128,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0129,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R1,development0130,Baseline matched event type failed_login.,0.5
+development,independent_event_baseline,R2,development0133,Baseline matched event type powershell_execution.,0.5
+development,time_window_baseline,R2,development0005|development0006,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0010|development0011,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0016|development0017,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0021|development0022,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0028|development0029,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0033|development0034,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0039|development0040,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0044|development0045,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0050|development0051,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0055|development0056,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0060|development0061,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0064|development0065,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0070|development0071,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0074|development0075,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0080|development0081,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0084|development0085,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0089|development0090,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0092|development0093,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0099|development0100,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0103|development0104,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0109|development0110,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0113|development0114,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0120|development0121,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0125|development0126,Baseline time-window correlation.,0.5
+development,time_window_baseline,R2,development0132|development0133,Baseline time-window correlation.,0.5
+development,ablation_without_R1,R2,development0005|development0006,Successful login followed by powershell_execution for user user_001 on host host_001 within 30 minutes.,0.8
+development,ablation_without_R1,R2,development0016|development0017,Successful login followed by powershell_execution for user user_005 on host host_005 within 30 minutes.,0.8
+development,ablation_without_R1,R2,development0028|development0029,Successful login followed by powershell_execution for user user_009 on host host_009 within 30 minutes.,0.8
+development,ablation_without_R1,R2,development0039|development0040,Successful login followed by powershell_execution for user user_013 on host host_013 within 30 minutes.,0.8
+development,ablation_without_R1,R2,development0050|development0051,Successful login followed by powershell_execution for user user_017 on host host_017 within 30 minutes.,0.8
+development,ablation_without_R1,R2,development0060|development0061,Successful login followed by powershell_execution for user user_021 on host host_021 within 30 minutes.,0.8
+development,ablation_without_R1,R2,development0070|development0071,Successful login followed by powershell_execution for user user_025 on host host_025 within 30 minutes.,0.8
+development,ablation_without_R1,R2,development0080|development0081,Successful login followed by powershell_execution for user user_029 on host host_029 within 30 minutes.,0.8
+development,ablation_without_R1,R2,development0089|development0090,Successful login followed by powershell_execution for user user_033 on host host_033 within 30 minutes.,0.8
+development,ablation_without_R1,R2,development0099|development0100,Successful login followed by powershell_execution for user user_037 on host host_037 within 30 minutes.,0.8
+development,ablation_without_R1,R2,development0109|development0110,Successful login followed by powershell_execution for user user_041 on host host_041 within 30 minutes.,0.8
+development,ablation_without_R1,R2,development0120|development0121,Successful login followed by powershell_execution for user user_045 on host host_045 within 30 minutes.,0.8
+development,ablation_without_R1,R2,development0132|development0133,Successful login followed by powershell_execution for user user_049 on host host_049 within 30 minutes.,0.8
+development,ablation_without_R1,R3,development0008,Suspicious download detected for user user_002 on host host_002.,0.95
+development,ablation_without_R1,R3,development0019,Suspicious download detected for user user_006 on host host_006.,0.95
+development,ablation_without_R1,R3,development0031,Suspicious download detected for user user_010 on host host_010.,0.95
+development,ablation_without_R1,R3,development0042,Suspicious download detected for user user_014 on host host_014.,0.95
+development,ablation_without_R1,R3,development0053,Suspicious download detected for user user_018 on host host_018.,0.95
+development,ablation_without_R1,R3,development0063,Suspicious download detected for user user_022 on host host_022.,0.95
+development,ablation_without_R1,R3,development0073,Suspicious download detected for user user_026 on host host_026.,0.95
+development,ablation_without_R1,R3,development0082,Suspicious download detected for user user_030 on host host_030.,0.95
+development,ablation_without_R1,R3,development0091,Suspicious download detected for user user_034 on host host_034.,0.95
+development,ablation_without_R1,R3,development0101,Suspicious download detected for user user_038 on host host_038.,0.95
+development,ablation_without_R1,R3,development0112,Suspicious download detected for user user_042 on host host_042.,0.95
+development,ablation_without_R1,R3,development0123,Suspicious download detected for user user_046 on host host_046.,0.95
+development,ablation_without_R2,R1,development0001|development0002|development0003,3 failed logins for user user_000 on host host_000 within 10 minutes.,0.9
+development,ablation_without_R2,R1,development0013|development0014|development0015,3 failed logins for user user_004 on host host_004 within 10 minutes.,0.9
+development,ablation_without_R2,R1,development0024|development0025|development0026,3 failed logins for user user_008 on host host_008 within 10 minutes.,0.9
+development,ablation_without_R2,R1,development0035|development0036|development0037,3 failed logins for user user_012 on host host_012 within 10 minutes.,0.9
+development,ablation_without_R2,R1,development0047|development0048|development0049,3 failed logins for user user_016 on host host_016 within 10 minutes.,0.9
+development,ablation_without_R2,R1,development0057|development0058|development0059,3 failed logins for user user_020 on host host_020 within 10 minutes.,0.9
+development,ablation_without_R2,R1,development0066|development0067|development0068,3 failed logins for user user_024 on host host_024 within 10 minutes.,0.9
+development,ablation_without_R2,R1,development0077|development0078|development0079,3 failed logins for user user_028 on host host_028 within 10 minutes.,0.9
+development,ablation_without_R2,R1,development0086|development0087|development0088,3 failed logins for user user_032 on host host_032 within 10 minutes.,0.9
+development,ablation_without_R2,R1,development0095|development0096|development0097,3 failed logins for user user_036 on host host_036 within 10 minutes.,0.9
+development,ablation_without_R2,R1,development0106|development0107|development0108,3 failed logins for user user_040 on host host_040 within 10 minutes.,0.9
+development,ablation_without_R2,R1,development0116|development0117|development0118,3 failed logins for user user_044 on host host_044 within 10 minutes.,0.9
+development,ablation_without_R2,R1,development0128|development0129|development0130,3 failed logins for user user_048 on host host_048 within 10 minutes.,0.9
+development,ablation_without_R2,R3,development0008,Suspicious download detected for user user_002 on host host_002.,0.95
+development,ablation_without_R2,R3,development0019,Suspicious download detected for user user_006 on host host_006.,0.95
+development,ablation_without_R2,R3,development0031,Suspicious download detected for user user_010 on host host_010.,0.95
+development,ablation_without_R2,R3,development0042,Suspicious download detected for user user_014 on host host_014.,0.95
+development,ablation_without_R2,R3,development0053,Suspicious download detected for user user_018 on host host_018.,0.95
+development,ablation_without_R2,R3,development0063,Suspicious download detected for user user_022 on host host_022.,0.95
+development,ablation_without_R2,R3,development0073,Suspicious download detected for user user_026 on host host_026.,0.95
+development,ablation_without_R2,R3,development0082,Suspicious download detected for user user_030 on host host_030.,0.95
+development,ablation_without_R2,R3,development0091,Suspicious download detected for user user_034 on host host_034.,0.95
+development,ablation_without_R2,R3,development0101,Suspicious download detected for user user_038 on host host_038.,0.95
+development,ablation_without_R2,R3,development0112,Suspicious download detected for user user_042 on host host_042.,0.95
+development,ablation_without_R2,R3,development0123,Suspicious download detected for user user_046 on host host_046.,0.95
+development,ablation_without_R3,R1,development0001|development0002|development0003,3 failed logins for user user_000 on host host_000 within 10 minutes.,0.9
+development,ablation_without_R3,R1,development0013|development0014|development0015,3 failed logins for user user_004 on host host_004 within 10 minutes.,0.9
+development,ablation_without_R3,R1,development0024|development0025|development0026,3 failed logins for user user_008 on host host_008 within 10 minutes.,0.9
+development,ablation_without_R3,R1,development0035|development0036|development0037,3 failed logins for user user_012 on host host_012 within 10 minutes.,0.9
+development,ablation_without_R3,R1,development0047|development0048|development0049,3 failed logins for user user_016 on host host_016 within 10 minutes.,0.9
+development,ablation_without_R3,R1,development0057|development0058|development0059,3 failed logins for user user_020 on host host_020 within 10 minutes.,0.9
+development,ablation_without_R3,R1,development0066|development0067|development0068,3 failed logins for user user_024 on host host_024 within 10 minutes.,0.9
+development,ablation_without_R3,R1,development0077|development0078|development0079,3 failed logins for user user_028 on host host_028 within 10 minutes.,0.9
+development,ablation_without_R3,R1,development0086|development0087|development0088,3 failed logins for user user_032 on host host_032 within 10 minutes.,0.9
+development,ablation_without_R3,R1,development0095|development0096|development0097,3 failed logins for user user_036 on host host_036 within 10 minutes.,0.9
+development,ablation_without_R3,R1,development0106|development0107|development0108,3 failed logins for user user_040 on host host_040 within 10 minutes.,0.9
+development,ablation_without_R3,R1,development0116|development0117|development0118,3 failed logins for user user_044 on host host_044 within 10 minutes.,0.9
+development,ablation_without_R3,R1,development0128|development0129|development0130,3 failed logins for user user_048 on host host_048 within 10 minutes.,0.9
+development,ablation_without_R3,R2,development0005|development0006,Successful login followed by powershell_execution for user user_001 on host host_001 within 30 minutes.,0.8
+development,ablation_without_R3,R2,development0016|development0017,Successful login followed by powershell_execution for user user_005 on host host_005 within 30 minutes.,0.8
+development,ablation_without_R3,R2,development0028|development0029,Successful login followed by powershell_execution for user user_009 on host host_009 within 30 minutes.,0.8
+development,ablation_without_R3,R2,development0039|development0040,Successful login followed by powershell_execution for user user_013 on host host_013 within 30 minutes.,0.8
+development,ablation_without_R3,R2,development0050|development0051,Successful login followed by powershell_execution for user user_017 on host host_017 within 30 minutes.,0.8
+development,ablation_without_R3,R2,development0060|development0061,Successful login followed by powershell_execution for user user_021 on host host_021 within 30 minutes.,0.8
+development,ablation_without_R3,R2,development0070|development0071,Successful login followed by powershell_execution for user user_025 on host host_025 within 30 minutes.,0.8
+development,ablation_without_R3,R2,development0080|development0081,Successful login followed by powershell_execution for user user_029 on host host_029 within 30 minutes.,0.8
+development,ablation_without_R3,R2,development0089|development0090,Successful login followed by powershell_execution for user user_033 on host host_033 within 30 minutes.,0.8
+development,ablation_without_R3,R2,development0099|development0100,Successful login followed by powershell_execution for user user_037 on host host_037 within 30 minutes.,0.8
+development,ablation_without_R3,R2,development0109|development0110,Successful login followed by powershell_execution for user user_041 on host host_041 within 30 minutes.,0.8
+development,ablation_without_R3,R2,development0120|development0121,Successful login followed by powershell_execution for user user_045 on host host_045 within 30 minutes.,0.8
+development,ablation_without_R3,R2,development0132|development0133,Successful login followed by powershell_execution for user user_049 on host host_049 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R1,development0001|development0002|development0003,3 failed logins for user user_000 on host host_000 within 10 minutes.,0.9
+development,ablation_without_maintenance_suppression,R1,development0013|development0014|development0015,3 failed logins for user user_004 on host host_004 within 10 minutes.,0.9
+development,ablation_without_maintenance_suppression,R1,development0024|development0025|development0026,3 failed logins for user user_008 on host host_008 within 10 minutes.,0.9
+development,ablation_without_maintenance_suppression,R1,development0035|development0036|development0037,3 failed logins for user user_012 on host host_012 within 10 minutes.,0.9
+development,ablation_without_maintenance_suppression,R1,development0047|development0048|development0049,3 failed logins for user user_016 on host host_016 within 10 minutes.,0.9
+development,ablation_without_maintenance_suppression,R1,development0057|development0058|development0059,3 failed logins for user user_020 on host host_020 within 10 minutes.,0.9
+development,ablation_without_maintenance_suppression,R1,development0066|development0067|development0068,3 failed logins for user user_024 on host host_024 within 10 minutes.,0.9
+development,ablation_without_maintenance_suppression,R1,development0077|development0078|development0079,3 failed logins for user user_028 on host host_028 within 10 minutes.,0.9
+development,ablation_without_maintenance_suppression,R1,development0086|development0087|development0088,3 failed logins for user user_032 on host host_032 within 10 minutes.,0.9
+development,ablation_without_maintenance_suppression,R1,development0095|development0096|development0097,3 failed logins for user user_036 on host host_036 within 10 minutes.,0.9
+development,ablation_without_maintenance_suppression,R1,development0106|development0107|development0108,3 failed logins for user user_040 on host host_040 within 10 minutes.,0.9
+development,ablation_without_maintenance_suppression,R1,development0116|development0117|development0118,3 failed logins for user user_044 on host host_044 within 10 minutes.,0.9
+development,ablation_without_maintenance_suppression,R1,development0128|development0129|development0130,3 failed logins for user user_048 on host host_048 within 10 minutes.,0.9
+development,ablation_without_maintenance_suppression,R2,development0005|development0006,Successful login followed by powershell_execution for user user_001 on host host_001 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0010|development0011,Successful login followed by powershell_execution for user user_003 on host host_003 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0016|development0017,Successful login followed by powershell_execution for user user_005 on host host_005 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0021|development0022,Successful login followed by powershell_execution for user user_007 on host host_007 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0028|development0029,Successful login followed by powershell_execution for user user_009 on host host_009 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0033|development0034,Successful login followed by powershell_execution for user user_011 on host host_011 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0039|development0040,Successful login followed by powershell_execution for user user_013 on host host_013 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0044|development0045,Successful login followed by powershell_execution for user user_015 on host host_015 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0050|development0051,Successful login followed by powershell_execution for user user_017 on host host_017 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0055|development0056,Successful login followed by powershell_execution for user user_019 on host host_019 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0060|development0061,Successful login followed by powershell_execution for user user_021 on host host_021 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0064|development0065,Successful login followed by powershell_execution for user user_023 on host host_023 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0070|development0071,Successful login followed by powershell_execution for user user_025 on host host_025 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0074|development0075,Successful login followed by powershell_execution for user user_027 on host host_027 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0080|development0081,Successful login followed by powershell_execution for user user_029 on host host_029 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0084|development0085,Successful login followed by powershell_execution for user user_031 on host host_031 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0089|development0090,Successful login followed by powershell_execution for user user_033 on host host_033 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0092|development0093,Successful login followed by powershell_execution for user user_035 on host host_035 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0099|development0100,Successful login followed by powershell_execution for user user_037 on host host_037 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0103|development0104,Successful login followed by powershell_execution for user user_039 on host host_039 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0109|development0110,Successful login followed by powershell_execution for user user_041 on host host_041 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0113|development0114,Successful login followed by powershell_execution for user user_043 on host host_043 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0120|development0121,Successful login followed by powershell_execution for user user_045 on host host_045 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0125|development0126,Successful login followed by powershell_execution for user user_047 on host host_047 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R2,development0132|development0133,Successful login followed by powershell_execution for user user_049 on host host_049 within 30 minutes.,0.8
+development,ablation_without_maintenance_suppression,R3,development0008,Suspicious download detected for user user_002 on host host_002.,0.95
+development,ablation_without_maintenance_suppression,R3,development0019,Suspicious download detected for user user_006 on host host_006.,0.95
+development,ablation_without_maintenance_suppression,R3,development0031,Suspicious download detected for user user_010 on host host_010.,0.95
+development,ablation_without_maintenance_suppression,R3,development0042,Suspicious download detected for user user_014 on host host_014.,0.95
+development,ablation_without_maintenance_suppression,R3,development0053,Suspicious download detected for user user_018 on host host_018.,0.95
+development,ablation_without_maintenance_suppression,R3,development0063,Suspicious download detected for user user_022 on host host_022.,0.95
+development,ablation_without_maintenance_suppression,R3,development0073,Suspicious download detected for user user_026 on host host_026.,0.95
+development,ablation_without_maintenance_suppression,R3,development0082,Suspicious download detected for user user_030 on host host_030.,0.95
+development,ablation_without_maintenance_suppression,R3,development0091,Suspicious download detected for user user_034 on host host_034.,0.95
+development,ablation_without_maintenance_suppression,R3,development0101,Suspicious download detected for user user_038 on host host_038.,0.95
+development,ablation_without_maintenance_suppression,R3,development0112,Suspicious download detected for user user_042 on host host_042.,0.95
+development,ablation_without_maintenance_suppression,R3,development0123,Suspicious download detected for user user_046 on host host_046.,0.95
+test,full_framework,R1,test0001|test0002|test0003,3 failed logins for user user_000 on host host_000 within 10 minutes.,0.9
+test,full_framework,R1,test0012|test0013|test0014,3 failed logins for user user_004 on host host_004 within 10 minutes.,0.9
+test,full_framework,R1,test0023|test0024|test0025,3 failed logins for user user_008 on host host_008 within 10 minutes.,0.9
+test,full_framework,R1,test0034|test0035|test0036,3 failed logins for user user_012 on host host_012 within 10 minutes.,0.9
+test,full_framework,R1,test0043|test0044|test0045,3 failed logins for user user_016 on host host_016 within 10 minutes.,0.9
+test,full_framework,R1,test0055|test0056|test0057,3 failed logins for user user_020 on host host_020 within 10 minutes.,0.9
+test,full_framework,R1,test0065|test0066|test0067,3 failed logins for user user_024 on host host_024 within 10 minutes.,0.9
+test,full_framework,R1,test0075|test0076|test0077,3 failed logins for user user_028 on host host_028 within 10 minutes.,0.9
+test,full_framework,R1,test0087|test0088|test0089,3 failed logins for user user_032 on host host_032 within 10 minutes.,0.9
+test,full_framework,R1,test0095|test0096|test0097,3 failed logins for user user_036 on host host_036 within 10 minutes.,0.9
+test,full_framework,R1,test0104|test0105|test0106,3 failed logins for user user_040 on host host_040 within 10 minutes.,0.9
+test,full_framework,R1,test0113|test0114|test0115,3 failed logins for user user_044 on host host_044 within 10 minutes.,0.9
+test,full_framework,R1,test0122|test0123|test0124,3 failed logins for user user_048 on host host_048 within 10 minutes.,0.9
+test,full_framework,R2,test0005|test0006,Successful login followed by powershell_execution for user user_001 on host host_001 within 30 minutes.,0.8
+test,full_framework,R2,test0015|test0016,Successful login followed by powershell_execution for user user_005 on host host_005 within 30 minutes.,0.8
+test,full_framework,R2,test0026|test0027,Successful login followed by powershell_execution for user user_009 on host host_009 within 30 minutes.,0.8
+test,full_framework,R2,test0038|test0039,Successful login followed by powershell_execution for user user_013 on host host_013 within 30 minutes.,0.8
+test,full_framework,R2,test0047|test0048,Successful login followed by powershell_execution for user user_017 on host host_017 within 30 minutes.,0.8
+test,full_framework,R2,test0059|test0060,Successful login followed by powershell_execution for user user_021 on host host_021 within 30 minutes.,0.8
+test,full_framework,R2,test0069|test0070,Successful login followed by powershell_execution for user user_025 on host host_025 within 30 minutes.,0.8
+test,full_framework,R2,test0079|test0080,Successful login followed by powershell_execution for user user_029 on host host_029 within 30 minutes.,0.8
+test,full_framework,R2,test0090|test0091,Successful login followed by powershell_execution for user user_033 on host host_033 within 30 minutes.,0.8
+test,full_framework,R2,test0099|test0100,Successful login followed by powershell_execution for user user_037 on host host_037 within 30 minutes.,0.8
+test,full_framework,R2,test0107|test0108,Successful login followed by powershell_execution for user user_041 on host host_041 within 30 minutes.,0.8
+test,full_framework,R2,test0116|test0117,Successful login followed by powershell_execution for user user_045 on host host_045 within 30 minutes.,0.8
+test,full_framework,R2,test0126|test0127,Successful login followed by powershell_execution for user user_049 on host host_049 within 30 minutes.,0.8
+test,full_framework,R3,test0008,Suspicious download detected for user user_002 on host host_002.,0.95
+test,full_framework,R3,test0018,Suspicious download detected for user user_006 on host host_006.,0.95
+test,full_framework,R3,test0029,Suspicious download detected for user user_010 on host host_010.,0.95
+test,full_framework,R3,test0040,Suspicious download detected for user user_014 on host host_014.,0.95
+test,full_framework,R3,test0050,Suspicious download detected for user user_018 on host host_018.,0.95
+test,full_framework,R3,test0061,Suspicious download detected for user user_022 on host host_022.,0.95
+test,full_framework,R3,test0071,Suspicious download detected for user user_026 on host host_026.,0.95
+test,full_framework,R3,test0082,Suspicious download detected for user user_030 on host host_030.,0.95
+test,full_framework,R3,test0092,Suspicious download detected for user user_034 on host host_034.,0.95
+test,full_framework,R3,test0101,Suspicious download detected for user user_038 on host host_038.,0.95
+test,full_framework,R3,test0109,Suspicious download detected for user user_042 on host host_042.,0.95
+test,full_framework,R3,test0119,Suspicious download detected for user user_046 on host host_046.,0.95
+test,independent_event_baseline,R1,test0001,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0002,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0003,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R2,test0006,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R3,test0008,Baseline matched event type suspicious_download.,0.5
+test,independent_event_baseline,R2,test0011,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R1,test0012,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0013,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0014,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R2,test0016,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R3,test0018,Baseline matched event type suspicious_download.,0.5
+test,independent_event_baseline,R2,test0021,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R1,test0023,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0024,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0025,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R2,test0027,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R3,test0029,Baseline matched event type suspicious_download.,0.5
+test,independent_event_baseline,R2,test0032,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R1,test0034,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0035,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0036,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R2,test0039,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R3,test0040,Baseline matched event type suspicious_download.,0.5
+test,independent_event_baseline,R2,test0042,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R1,test0043,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0044,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0045,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R2,test0048,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R3,test0050,Baseline matched event type suspicious_download.,0.5
+test,independent_event_baseline,R2,test0053,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R1,test0055,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0056,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0057,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R2,test0060,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R3,test0061,Baseline matched event type suspicious_download.,0.5
+test,independent_event_baseline,R2,test0064,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R1,test0065,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0066,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0067,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R2,test0070,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R3,test0071,Baseline matched event type suspicious_download.,0.5
+test,independent_event_baseline,R2,test0074,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R1,test0075,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0076,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0077,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R2,test0080,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R3,test0082,Baseline matched event type suspicious_download.,0.5
+test,independent_event_baseline,R2,test0085,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R1,test0087,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0088,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0089,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R2,test0091,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R3,test0092,Baseline matched event type suspicious_download.,0.5
+test,independent_event_baseline,R2,test0094,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R1,test0095,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0096,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0097,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R2,test0100,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R3,test0101,Baseline matched event type suspicious_download.,0.5
+test,independent_event_baseline,R2,test0103,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R1,test0104,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0105,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0106,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R2,test0108,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R3,test0109,Baseline matched event type suspicious_download.,0.5
+test,independent_event_baseline,R2,test0111,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R1,test0113,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0114,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0115,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R2,test0117,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R3,test0119,Baseline matched event type suspicious_download.,0.5
+test,independent_event_baseline,R2,test0121,Baseline matched event type powershell_execution.,0.5
+test,independent_event_baseline,R1,test0122,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0123,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R1,test0124,Baseline matched event type failed_login.,0.5
+test,independent_event_baseline,R2,test0127,Baseline matched event type powershell_execution.,0.5
+test,time_window_baseline,R2,test0005|test0006,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0010|test0011,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0015|test0016,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0020|test0021,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0026|test0027,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0031|test0032,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0038|test0039,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0041|test0042,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0047|test0048,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0052|test0053,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0059|test0060,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0063|test0064,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0069|test0070,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0073|test0074,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0079|test0080,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0084|test0085,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0090|test0091,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0093|test0094,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0099|test0100,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0102|test0103,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0107|test0108,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0110|test0111,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0116|test0117,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0120|test0121,Baseline time-window correlation.,0.5
+test,time_window_baseline,R2,test0126|test0127,Baseline time-window correlation.,0.5
+test,ablation_without_R1,R2,test0005|test0006,Successful login followed by powershell_execution for user user_001 on host host_001 within 30 minutes.,0.8
+test,ablation_without_R1,R2,test0015|test0016,Successful login followed by powershell_execution for user user_005 on host host_005 within 30 minutes.,0.8
+test,ablation_without_R1,R2,test0026|test0027,Successful login followed by powershell_execution for user user_009 on host host_009 within 30 minutes.,0.8
+test,ablation_without_R1,R2,test0038|test0039,Successful login followed by powershell_execution for user user_013 on host host_013 within 30 minutes.,0.8
+test,ablation_without_R1,R2,test0047|test0048,Successful login followed by powershell_execution for user user_017 on host host_017 within 30 minutes.,0.8
+test,ablation_without_R1,R2,test0059|test0060,Successful login followed by powershell_execution for user user_021 on host host_021 within 30 minutes.,0.8
+test,ablation_without_R1,R2,test0069|test0070,Successful login followed by powershell_execution for user user_025 on host host_025 within 30 minutes.,0.8
+test,ablation_without_R1,R2,test0079|test0080,Successful login followed by powershell_execution for user user_029 on host host_029 within 30 minutes.,0.8
+test,ablation_without_R1,R2,test0090|test0091,Successful login followed by powershell_execution for user user_033 on host host_033 within 30 minutes.,0.8
+test,ablation_without_R1,R2,test0099|test0100,Successful login followed by powershell_execution for user user_037 on host host_037 within 30 minutes.,0.8
+test,ablation_without_R1,R2,test0107|test0108,Successful login followed by powershell_execution for user user_041 on host host_041 within 30 minutes.,0.8
+test,ablation_without_R1,R2,test0116|test0117,Successful login followed by powershell_execution for user user_045 on host host_045 within 30 minutes.,0.8
+test,ablation_without_R1,R2,test0126|test0127,Successful login followed by powershell_execution for user user_049 on host host_049 within 30 minutes.,0.8
+test,ablation_without_R1,R3,test0008,Suspicious download detected for user user_002 on host host_002.,0.95
+test,ablation_without_R1,R3,test0018,Suspicious download detected for user user_006 on host host_006.,0.95
+test,ablation_without_R1,R3,test0029,Suspicious download detected for user user_010 on host host_010.,0.95
+test,ablation_without_R1,R3,test0040,Suspicious download detected for user user_014 on host host_014.,0.95
+test,ablation_without_R1,R3,test0050,Suspicious download detected for user user_018 on host host_018.,0.95
+test,ablation_without_R1,R3,test0061,Suspicious download detected for user user_022 on host host_022.,0.95
+test,ablation_without_R1,R3,test0071,Suspicious download detected for user user_026 on host host_026.,0.95
+test,ablation_without_R1,R3,test0082,Suspicious download detected for user user_030 on host host_030.,0.95
+test,ablation_without_R1,R3,test0092,Suspicious download detected for user user_034 on host host_034.,0.95
+test,ablation_without_R1,R3,test0101,Suspicious download detected for user user_038 on host host_038.,0.95
+test,ablation_without_R1,R3,test0109,Suspicious download detected for user user_042 on host host_042.,0.95
+test,ablation_without_R1,R3,test0119,Suspicious download detected for user user_046 on host host_046.,0.95
+test,ablation_without_R2,R1,test0001|test0002|test0003,3 failed logins for user user_000 on host host_000 within 10 minutes.,0.9
+test,ablation_without_R2,R1,test0012|test0013|test0014,3 failed logins for user user_004 on host host_004 within 10 minutes.,0.9
+test,ablation_without_R2,R1,test0023|test0024|test0025,3 failed logins for user user_008 on host host_008 within 10 minutes.,0.9
+test,ablation_without_R2,R1,test0034|test0035|test0036,3 failed logins for user user_012 on host host_012 within 10 minutes.,0.9
+test,ablation_without_R2,R1,test0043|test0044|test0045,3 failed logins for user user_016 on host host_016 within 10 minutes.,0.9
+test,ablation_without_R2,R1,test0055|test0056|test0057,3 failed logins for user user_020 on host host_020 within 10 minutes.,0.9
+test,ablation_without_R2,R1,test0065|test0066|test0067,3 failed logins for user user_024 on host host_024 within 10 minutes.,0.9
+test,ablation_without_R2,R1,test0075|test0076|test0077,3 failed logins for user user_028 on host host_028 within 10 minutes.,0.9
+test,ablation_without_R2,R1,test0087|test0088|test0089,3 failed logins for user user_032 on host host_032 within 10 minutes.,0.9
+test,ablation_without_R2,R1,test0095|test0096|test0097,3 failed logins for user user_036 on host host_036 within 10 minutes.,0.9
+test,ablation_without_R2,R1,test0104|test0105|test0106,3 failed logins for user user_040 on host host_040 within 10 minutes.,0.9
+test,ablation_without_R2,R1,test0113|test0114|test0115,3 failed logins for user user_044 on host host_044 within 10 minutes.,0.9
+test,ablation_without_R2,R1,test0122|test0123|test0124,3 failed logins for user user_048 on host host_048 within 10 minutes.,0.9
+test,ablation_without_R2,R3,test0008,Suspicious download detected for user user_002 on host host_002.,0.95
+test,ablation_without_R2,R3,test0018,Suspicious download detected for user user_006 on host host_006.,0.95
+test,ablation_without_R2,R3,test0029,Suspicious download detected for user user_010 on host host_010.,0.95
+test,ablation_without_R2,R3,test0040,Suspicious download detected for user user_014 on host host_014.,0.95
+test,ablation_without_R2,R3,test0050,Suspicious download detected for user user_018 on host host_018.,0.95
+test,ablation_without_R2,R3,test0061,Suspicious download detected for user user_022 on host host_022.,0.95
+test,ablation_without_R2,R3,test0071,Suspicious download detected for user user_026 on host host_026.,0.95
+test,ablation_without_R2,R3,test0082,Suspicious download detected for user user_030 on host host_030.,0.95
+test,ablation_without_R2,R3,test0092,Suspicious download detected for user user_034 on host host_034.,0.95
+test,ablation_without_R2,R3,test0101,Suspicious download detected for user user_038 on host host_038.,0.95
+test,ablation_without_R2,R3,test0109,Suspicious download detected for user user_042 on host host_042.,0.95
+test,ablation_without_R2,R3,test0119,Suspicious download detected for user user_046 on host host_046.,0.95
+test,ablation_without_R3,R1,test0001|test0002|test0003,3 failed logins for user user_000 on host host_000 within 10 minutes.,0.9
+test,ablation_without_R3,R1,test0012|test0013|test0014,3 failed logins for user user_004 on host host_004 within 10 minutes.,0.9
+test,ablation_without_R3,R1,test0023|test0024|test0025,3 failed logins for user user_008 on host host_008 within 10 minutes.,0.9
+test,ablation_without_R3,R1,test0034|test0035|test0036,3 failed logins for user user_012 on host host_012 within 10 minutes.,0.9
+test,ablation_without_R3,R1,test0043|test0044|test0045,3 failed logins for user user_016 on host host_016 within 10 minutes.,0.9
+test,ablation_without_R3,R1,test0055|test0056|test0057,3 failed logins for user user_020 on host host_020 within 10 minutes.,0.9
+test,ablation_without_R3,R1,test0065|test0066|test0067,3 failed logins for user user_024 on host host_024 within 10 minutes.,0.9
+test,ablation_without_R3,R1,test0075|test0076|test0077,3 failed logins for user user_028 on host host_028 within 10 minutes.,0.9
+test,ablation_without_R3,R1,test0087|test0088|test0089,3 failed logins for user user_032 on host host_032 within 10 minutes.,0.9
+test,ablation_without_R3,R1,test0095|test0096|test0097,3 failed logins for user user_036 on host host_036 within 10 minutes.,0.9
+test,ablation_without_R3,R1,test0104|test0105|test0106,3 failed logins for user user_040 on host host_040 within 10 minutes.,0.9
+test,ablation_without_R3,R1,test0113|test0114|test0115,3 failed logins for user user_044 on host host_044 within 10 minutes.,0.9
+test,ablation_without_R3,R1,test0122|test0123|test0124,3 failed logins for user user_048 on host host_048 within 10 minutes.,0.9
+test,ablation_without_R3,R2,test0005|test0006,Successful login followed by powershell_execution for user user_001 on host host_001 within 30 minutes.,0.8
+test,ablation_without_R3,R2,test0015|test0016,Successful login followed by powershell_execution for user user_005 on host host_005 within 30 minutes.,0.8
+test,ablation_without_R3,R2,test0026|test0027,Successful login followed by powershell_execution for user user_009 on host host_009 within 30 minutes.,0.8
+test,ablation_without_R3,R2,test0038|test0039,Successful login followed by powershell_execution for user user_013 on host host_013 within 30 minutes.,0.8
+test,ablation_without_R3,R2,test0047|test0048,Successful login followed by powershell_execution for user user_017 on host host_017 within 30 minutes.,0.8
+test,ablation_without_R3,R2,test0059|test0060,Successful login followed by powershell_execution for user user_021 on host host_021 within 30 minutes.,0.8
+test,ablation_without_R3,R2,test0069|test0070,Successful login followed by powershell_execution for user user_025 on host host_025 within 30 minutes.,0.8
+test,ablation_without_R3,R2,test0079|test0080,Successful login followed by powershell_execution for user user_029 on host host_029 within 30 minutes.,0.8
+test,ablation_without_R3,R2,test0090|test0091,Successful login followed by powershell_execution for user user_033 on host host_033 within 30 minutes.,0.8
+test,ablation_without_R3,R2,test0099|test0100,Successful login followed by powershell_execution for user user_037 on host host_037 within 30 minutes.,0.8
+test,ablation_without_R3,R2,test0107|test0108,Successful login followed by powershell_execution for user user_041 on host host_041 within 30 minutes.,0.8
+test,ablation_without_R3,R2,test0116|test0117,Successful login followed by powershell_execution for user user_045 on host host_045 within 30 minutes.,0.8
+test,ablation_without_R3,R2,test0126|test0127,Successful login followed by powershell_execution for user user_049 on host host_049 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R1,test0001|test0002|test0003,3 failed logins for user user_000 on host host_000 within 10 minutes.,0.9
+test,ablation_without_maintenance_suppression,R1,test0012|test0013|test0014,3 failed logins for user user_004 on host host_004 within 10 minutes.,0.9
+test,ablation_without_maintenance_suppression,R1,test0023|test0024|test0025,3 failed logins for user user_008 on host host_008 within 10 minutes.,0.9
+test,ablation_without_maintenance_suppression,R1,test0034|test0035|test0036,3 failed logins for user user_012 on host host_012 within 10 minutes.,0.9
+test,ablation_without_maintenance_suppression,R1,test0043|test0044|test0045,3 failed logins for user user_016 on host host_016 within 10 minutes.,0.9
+test,ablation_without_maintenance_suppression,R1,test0055|test0056|test0057,3 failed logins for user user_020 on host host_020 within 10 minutes.,0.9
+test,ablation_without_maintenance_suppression,R1,test0065|test0066|test0067,3 failed logins for user user_024 on host host_024 within 10 minutes.,0.9
+test,ablation_without_maintenance_suppression,R1,test0075|test0076|test0077,3 failed logins for user user_028 on host host_028 within 10 minutes.,0.9
+test,ablation_without_maintenance_suppression,R1,test0087|test0088|test0089,3 failed logins for user user_032 on host host_032 within 10 minutes.,0.9
+test,ablation_without_maintenance_suppression,R1,test0095|test0096|test0097,3 failed logins for user user_036 on host host_036 within 10 minutes.,0.9
+test,ablation_without_maintenance_suppression,R1,test0104|test0105|test0106,3 failed logins for user user_040 on host host_040 within 10 minutes.,0.9
+test,ablation_without_maintenance_suppression,R1,test0113|test0114|test0115,3 failed logins for user user_044 on host host_044 within 10 minutes.,0.9
+test,ablation_without_maintenance_suppression,R1,test0122|test0123|test0124,3 failed logins for user user_048 on host host_048 within 10 minutes.,0.9
+test,ablation_without_maintenance_suppression,R2,test0005|test0006,Successful login followed by powershell_execution for user user_001 on host host_001 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0010|test0011,Successful login followed by powershell_execution for user user_003 on host host_003 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0015|test0016,Successful login followed by powershell_execution for user user_005 on host host_005 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0020|test0021,Successful login followed by powershell_execution for user user_007 on host host_007 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0026|test0027,Successful login followed by powershell_execution for user user_009 on host host_009 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0031|test0032,Successful login followed by powershell_execution for user user_011 on host host_011 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0038|test0039,Successful login followed by powershell_execution for user user_013 on host host_013 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0041|test0042,Successful login followed by powershell_execution for user user_015 on host host_015 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0047|test0048,Successful login followed by powershell_execution for user user_017 on host host_017 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0052|test0053,Successful login followed by powershell_execution for user user_019 on host host_019 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0059|test0060,Successful login followed by powershell_execution for user user_021 on host host_021 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0063|test0064,Successful login followed by powershell_execution for user user_023 on host host_023 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0069|test0070,Successful login followed by powershell_execution for user user_025 on host host_025 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0073|test0074,Successful login followed by powershell_execution for user user_027 on host host_027 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0079|test0080,Successful login followed by powershell_execution for user user_029 on host host_029 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0084|test0085,Successful login followed by powershell_execution for user user_031 on host host_031 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0090|test0091,Successful login followed by powershell_execution for user user_033 on host host_033 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0093|test0094,Successful login followed by powershell_execution for user user_035 on host host_035 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0099|test0100,Successful login followed by powershell_execution for user user_037 on host host_037 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0102|test0103,Successful login followed by powershell_execution for user user_039 on host host_039 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0107|test0108,Successful login followed by powershell_execution for user user_041 on host host_041 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0110|test0111,Successful login followed by powershell_execution for user user_043 on host host_043 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0116|test0117,Successful login followed by powershell_execution for user user_045 on host host_045 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0120|test0121,Successful login followed by powershell_execution for user user_047 on host host_047 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R2,test0126|test0127,Successful login followed by powershell_execution for user user_049 on host host_049 within 30 minutes.,0.8
+test,ablation_without_maintenance_suppression,R3,test0008,Suspicious download detected for user user_002 on host host_002.,0.95
+test,ablation_without_maintenance_suppression,R3,test0018,Suspicious download detected for user user_006 on host host_006.,0.95
+test,ablation_without_maintenance_suppression,R3,test0029,Suspicious download detected for user user_010 on host host_010.,0.95
+test,ablation_without_maintenance_suppression,R3,test0040,Suspicious download detected for user user_014 on host host_014.,0.95
+test,ablation_without_maintenance_suppression,R3,test0050,Suspicious download detected for user user_018 on host host_018.,0.95
+test,ablation_without_maintenance_suppression,R3,test0061,Suspicious download detected for user user_022 on host host_022.,0.95
+test,ablation_without_maintenance_suppression,R3,test0071,Suspicious download detected for user user_026 on host host_026.,0.95
+test,ablation_without_maintenance_suppression,R3,test0082,Suspicious download detected for user user_030 on host host_030.,0.95
+test,ablation_without_maintenance_suppression,R3,test0092,Suspicious download detected for user user_034 on host host_034.,0.95
+test,ablation_without_maintenance_suppression,R3,test0101,Suspicious download detected for user user_038 on host host_038.,0.95
+test,ablation_without_maintenance_suppression,R3,test0109,Suspicious download detected for user user_042 on host host_042.,0.95
+test,ablation_without_maintenance_suppression,R3,test0119,Suspicious download detected for user user_046 on host host_046.,0.95

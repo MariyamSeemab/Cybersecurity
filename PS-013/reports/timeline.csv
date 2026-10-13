@@ -1,0 +1,12 @@
+
+event_id,timestamp,user,host,event_type,maintenance_approved
+E001,2026-09-01T09:00:00Z,alice,WS-01,failed_login,false
+E002,2026-09-01T09:02:00Z,alice,WS-01,failed_login,false
+E003,2026-09-01T09:04:00Z,alice,WS-01,failed_login,false
+E004,2026-09-01T10:00:00Z,bob,WS-02,successful_login,false
+E005,2026-09-01T10:05:00Z,bob,WS-02,powershell_execution,false
+E006,2026-09-01T11:00:00Z,carol,WS-03,suspicious_download,false
+E007,2026-09-01T12:00:00Z,dave,WS-04,successful_login,true
+E008,2026-09-01T12:05:00Z,dave,WS-04,powershell_execution,true
+E009,2026-09-01T12:10:00Z,dave,WS-04,suspicious_download,true
+
